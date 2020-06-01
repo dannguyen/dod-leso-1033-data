@@ -75,3 +75,31 @@ data/collected/leso/disp-federal-agencies-2018-12-31.xlsx:
   landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY19.xlsx
 
+
+#### 2017 data
+
+
+data/collected/leso/disp-all-states-2017-12-31.xlsx:
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
+
+
+# data/collected/leso/disp-cancellations-2017-12-31.xlsx:
+#   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312017.xlsx
+
+#### 2016 data
+
+data/collected/leso/disp-all-states-2016-12-31.xlsx:
+  landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312016.xlsx
+  description: |
+    FOIA: Law Enforcement Support Office (LESO) Excess Department of Defense Property Transferred to Participating Agencies
+
+data/collected/leso/disp-cancellations-2016-12-31.xlsx:
+  landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312016.xlsx
+  description: |
+    FOIA: LESO Information for Pending Requests, Shipments (Transfers) and Cancellations of Property
+
+
+# data/collected/leso/_2017.xlsx:
+#   landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx

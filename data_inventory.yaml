@@ -2,17 +2,76 @@
 #  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
 #   know not just the source URL, but the context of the dataset when published
 
-data/collected/hello.txt:
-  url: https://gist.githubusercontent.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8/raw/9bf95b5c6e234e491821cd355f6db1ec655cbe38/hello.txt
-  landing_page: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8
+data/collected/leso/disp-all-states-2020-03-31.xlsx:
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_03312020.xlsx
+  landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
-    A sample "raw data" file for the template project.
+    LESO Property Transferred to Participating Agencies
 
-    Tab delimited computing pioneers
+    By state and agency name as of March 31, 2020.
 
+    This is the most recent quarterly update of the accountable property held by participating agencies.
 
-data/collected/world.txt:
-  url: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8/raw/9bf95b5c6e234e491821cd355f6db1ec655cbe38/world.txt
-  landing_page: https://gist.github.com/dannguyen/df87d9d4cf42ed7b4f9549553ea5b8c8
+data/collected/leso/disp-cancellations-2020-03-31.xlsx:
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_01012020_03312020.xlsx
+  landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
-    Tab delimited heroes
+    LESO Information for Shipments (Transfers) and Cancellations of Property
+    The information includes all requests made during the time period of
+    January 1 - March 31, 2020.
+
+
+data/collected/leso/disp-federal-agencies-2020-03-31.xlsx:
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%202%20FY20.xlsx
+  landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  description: |
+    Federal Property Acquisitions
+
+    The information includes all requests made during the time period of
+
+    January 1 - March 31, 2020.
+
+
+data/collected/leso/disp-fy2017-2018.xlsx:
+  landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/FY17-18%20AMMO%20Shipped-State-Fed-Cancellations%2010022018.xlsx
+  description: |
+    Ammunition transfers to Local, State, and Federal law enforcement agencies
+
+    (Including cancellations)
+
+    Data valid for April, 2017  - August, 2018
+
+
+##############
+
+data/collected/leso/disp-all-states-2019-12-31.xlsx:
+  landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312019.xlsx
+
+data/collected/leso/disp-cancellations-2019-12-31.xlsx:
+  landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012019_12312019.xlsx
+
+data/collected/leso/disp-federal-agencies-2019-12-31.xlsx:
+  description: |
+    The information includes all requests made during the time period of October 1 - December 31, 2019.
+  landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY20.xlsx
+
+####
+
+
+data/collected/leso/disp-all-states-2018-12-31.xlsx:
+  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312018.xlsx
+
+data/collected/leso/disp-cancellations-2018-12-31.xlsx:
+  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012018_12312018%20V2.xlsx
+
+
+data/collected/leso/disp-federal-agencies-2018-12-31.xlsx:
+  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY19.xlsx
+

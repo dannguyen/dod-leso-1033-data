@@ -2,7 +2,7 @@
 #  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
 #   know not just the source URL, but the context of the dataset when published
 
-# data/collected/disp/agencies/2020-03-31/
+### 2020-03-31
 
 data/collected/disp/agencies/2020-03-31/all-states.xlsx:
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_03312020.xlsx
@@ -33,7 +33,7 @@ data/collected/disp/agencies/2020-03-31/federal-agencies.xlsx:
 
     January 1 - March 31, 2020.
 
-
+### 2019-12-31
 data/collected/disp/agencies/2019-12-31/states-all.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312019.xlsx
@@ -48,63 +48,6 @@ data/collected/disp/agencies/2019-12-31/federal-agencies.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY20.xlsx
 
-#### data/collected/disp/agencies/2018-12-31/
-
-
-data/collected/disp/agencies/2018-12-31/states-all.xlsx:
-  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
-  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312018.xlsx
-
-data/collected/disp/agencies/2018-12-31/cancellations.xlsx:
-  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
-  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012018_12312018%20V2.xlsx
-
-
-data/collected/disp/agencies/2018-12-31/federal-agencies.xlsx:
-  landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
-  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY19.xlsx
-
-
-#### data/collected/disp/agencies/2017-12-31/
-
-
-data/collected/disp/agencies/2017-12-31/states-all.xlsx:
-  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
-
-
-# data/collected/disp/agencies/2017-12-31/cancellations.xlsx:
-#   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312017.xlsx
-
-#### data/collected/disp/agencies/2016-12-31/
-
-data/collected/disp/agencies/2016-12-31/states-all.xlsx:
-  landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
-  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312016.xlsx
-  description: |
-    FOIA: Law Enforcement Support Office (LESO) Excess Department of Defense Property Transferred to Participating Agencies
-
-data/collected/disp/agencies/2016-12-31/cancellations.xlsx:
-  landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
-  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312016.xlsx
-  description: |
-    FOIA: LESO Information for Pending Requests, Shipments (Transfers) and Cancellations of Property
-
-
-data/collected/disp/agencies/2014-04-30/counties.xlsx:
-  url: https://drive.google.com/u/0/uc?id=0ByME-GBaHL24c0RKbHhaNktnSTQ&export=download
-  landing_page: https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx
-  description: |
-    Note: at least 2 entries have a ship date of 9/9/14, which seems erroneous
-
-    As mirrored by the state of California on Google Sheets:
-
-    https://drive.google.com/file/d/0ByME-GBaHL24c0RKbHhaNktnSTQ/edit?usp=sharing
-
-    LESO-Jan-2006-to-April-2014.xlsxFederal List - January 2006 to July 2014
-
-        This is a list created and provided by the Law Enforcement Support Office (LESO).  It does not include more specific information provided by Cal OES in the above list.  For information about how this list was compiled, contact DLA Disposition Services (Public Affairs),  (269) 961-7015, DLADISPO@DLA.MIL.
-
-############ MARSHALL PROJECT FILES
 
 
 # 2019-09-30
@@ -119,6 +62,24 @@ data/collected/disp/agencies/2019-09-30/cancellations.xlsx:
 data/collected/disp/agencies/2019-09-30/federal-agencies.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2019-09-30/DISP_Federal Agency Acquisitions_QTR 4 FY19.xlsx
+
+
+
+
+
+
+
+
+
+
+
+######################################################################################################### 
+############ 
+############         
+############ 
+############ 
+############ MARSHALL PROJECT FILES
+############ 
 
 
 
@@ -150,219 +111,234 @@ data/collected/disp/agencies/2019-03-31/federal-agencies.xlsx:
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2019-03-31/DISP_Federal Agency Acquisitions_QTR 2 FY19.xlsx
 
 
-########################
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 # 2018-12-31
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2018-12-31/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-12-31/DISP_AllStatesAndTerritories_12312018.xlsx
+  alt_landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  alt_url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312018.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+
+data/collected/disp/agencies/2018-12-31/cancellations.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-12-31/DISP_Shipments_Cancellations_10012018_12312018 V2.xlsx
+  alt_landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  alt_url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012018_12312018%20V2.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
+
+data/collected/disp/agencies/2018-12-31/federal-agencies.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-12-31/DISP_Federal Agency Acquisitions_QTR 1 FY19.xlsx
+  alt_landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
+  alt_url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY19.xlsx
 
-FY17-18 AMMO Shipped-State-Fed-Cancellations 10022018.xlsx
-DISP_Shipments_Cancellations_10012018_12312018 V2.xlsx
-DISP_Federal Agency Acquisitions_QTR 1 FY19.xlsx
-DISP_AllStatesAndTerritories_12312018.xlsx
+data/collected/disp/agencies/2018-12-31/ammo.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-12-31/FY17-18 AMMO Shipped-State-Fed-Cancellations 10022018.xlsx
+
+
 
 # 2018-09-30
-Federal LEA 4th quarter FY2018.xlsx
-DISP_AllStatesAndTerritories_09302018.xlsx
-Cancelled shipments 4th q fy2018.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
+data/collected/disp/agencies/2018-09-30/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-09-30/DISP_AllStatesAndTerritories_09302018.xlsx
+
+data/collected/disp/agencies/2018-09-30/cancellations.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-09-30/Cancelled shipments 4th q fy2018.xlsx
+
+data/collected/disp/agencies/2018-09-30/federal-agencies.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-09-30/Federal LEA 4th quarter FY2018.xlsx
 
 
 # 2018-06-30
-DISP_Shipments_Cancellations_04012018_06302018.xlsx
-DISP_AllStatesAndTerritories_06302018.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2018-06-30/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-06-30/DISP_AllStatesAndTerritories_06302018.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+data/collected/disp/agencies/2018-06-30/cancellations.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-06-30/DISP_Shipments_Cancellations_04012018_06302018.xlsx
 
 
 # 2018-03-31
-DISP_Shipments_Cancellations_01012018_03312018.xlsx
-DISP_AllStatesAndTerritories_03312018.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2018-03-31/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-03-31/DISP_AllStatesAndTerritories_03312018.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+data/collected/disp/agencies/2018-03-31/cancellations.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2018-03-31/DISP_Shipments_Cancellations_01012018_03312018.xlsx
 
 
-# 2017-09-30
-DISP_Shipments_Cancellations_07012017_09302017.xlsx
-DISP_AllStatesAndTerritories_09302017.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+#### 2017-12-31
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+data/collected/disp/agencies/2017-12-31/states-all.xlsx:
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
+  description: |
+    Could not find a landing page that links to this file; the URL was found
+    by guessing file patterns.
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
+    https://web.archive.org/web/*/https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO//*
+data/collected/disp/agencies/2017-12-31/cancellations.xlsx:
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012017_12312017.xlsx
+  description: |
+    Could not find a landing page that links to this file; the URL was found
+    by guessing file patterns.
+
+    https://web.archive.org/web/*/https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO//*
+
+
+#### 2017-09-30
+data/collected/disp/agencies/2017-09-30/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2017-09-30/DISP_AllStatesAndTerritories_09302017.xlsx
+
+data/collected/disp/agencies/2017-09-30/cancellations.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2017-09-30/DISP_Shipments_Cancellations_07012017_09302017.xlsx
 
 
 # 2017-06-30
-DISP_AllStatesAndTerritories_06302017.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2017-06-30/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2017-06-30/DISP_AllStatesAndTerritories_06302017.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+data/collected/disp/agencies/2017-06-30/cancellations.xlsx:
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_04012017_06302017.xlsx
+  description: |
+    Could not find a landing page that links to this file; the URL was found
+    by guessing file patterns.
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+    https://web.archive.org/web/*/https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO//*
 
 
 # 2017-03-31
-DISP_AllStatesAndTerritories_03312017.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2017-03-31/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2017-03-31/DISP_AllStatesAndTerritories_03312017.xlsx
 
 
 # 2016-12-31
-DISP_AllStatesAndTerritories_12312016.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+data/collected/disp/agencies/2016-12-31/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-12-31/DISP_AllStatesAndTerritories_12312016.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+data/collected/disp/agencies/2016-12-31/cancellations.xlsx:
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312016.xlsx
+  description: |
+    Could not find a landing page that links to this file; the URL was found
+    by guessing file patterns.
+
+    https://web.archive.org/web/*/https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO//*
+
 
 
 # 2016-10-03
-DISP_AllStatesAndTerritories_10032016.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+data/collected/disp/agencies/2016-10-03/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-10-03/DISP_AllStatesAndTerritories_10032016.xlsx
+  alt_url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_10032016.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+data/collected/disp/agencies/2016-10-03/cancellations.xls:
+  url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_10032016.xls
+  description: |
+    Could not find a landing page that links to this file; the URL was found
+    by guessing file patterns.
+
+    https://web.archive.org/web/*/https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO//*
 
 
 # 2016-04-04
-DISP_AllStatesAndTerritories_160401.xlsx
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+data/collected/disp/agencies/2016-04-04/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-04-04/DISP_AllStatesAndTerritories_160401.xlsx
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
 
 # 2016-03-20
-data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
+
+# Marshall Project README.md
+# Sometime in the late fall/winter of 2016, the Defence Logistics Agency moved its website and ceased updating its previous URL, which we had been monitoring. 
+# As a result, there was one quarterly update in early 2016 that covered the 1033 program through Dec. 31, 2015 that we initially missed. 
+# The data in this folder was gathered from the Wayback Machine, which took [this snapshot on March 20, 2016](https://web.archive.org/web/20160320084733/http://www.dla.mil/DispositionServices/FOIA/EFOIALibrary.aspx), and is date-stamped accordingly. 
+#It's unclear on what date this update to the data was originally posted, but it likely would have been in early February
+
+data/collected/disp/agencies/2016-03-20/states-AK-LA.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-03-20/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
+data/collected/disp/agencies/2016-03-20/states-MA-WY-Territories.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-
-data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
-  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-  url: gitx/
-README.md
-Massachussetts_Wyoming_Territories.xls
-Alaska_Louisiana.xls
-
-
-
-
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-03-20/Massachussetts_Wyoming_Territories.xls
+  
 
 # 2015-10-07
+data/collected/disp/agencies/2015-10-07/states-AK-LA.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-10-07/Alaska_Louisiana.xls
+
+data/collected/disp/agencies/2015-10-07/states-MA-WY-Territories.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-10-07/Massachussetts_Wyoming_Territories.xls
+
+
 # 2015-07-14
+data/collected/disp/agencies/2015-07-14/states-AK-LA.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-07-14/Alaska_Louisiana.xls
+
+data/collected/disp/agencies/2015-07-14/states-MA-WY-Territories.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-07-14/Massachussetts_Wyoming_Territories.xls
+
 # 2015-04-07
+data/collected/disp/agencies/2015-04-07/states-AK-LA.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-04-07/Alaska_Louisiana.xls
+
+data/collected/disp/agencies/2015-04-07/states-MA-WY-Territories.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-04-07/Massachussetts_Wyoming_Territories.xls
+
 # 2015-02-06
+data/collected/disp/agencies/2015-02-06/states-AK-LA.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-02-06/Alaska_Louisiana.xls
+
+data/collected/disp/agencies/2015-02-06/states-MA-WY-Territories.xlsx:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-02-06/Massachussetts_Wyoming_Territories.xls
+
 # 2014-11-21
+data/collected/disp/agencies/2014-11-21/states-AK-LA.xls:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2014-11-21/tacticalatLEAAL-LA.xls
+
+data/collected/disp/agencies/2014-11-21/states-MA-WY-Territories.xls:
+  landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
+  url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2014-11-21/tacticalatLEAMA-WYandTerr.xls
+
 
 ###################
-
 # # YYYY_MM_DD
 # data/collected/disp/agencies/YYYY_MM_DD/all-states.xlsx:
 #   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-#   url: gitx/
+#   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/YYYYDDMM/
 
 # data/collected/disp/agencies/YYYY_MM_DD/cancellations.xlsx:
 #   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-#   url: gitx/
+#   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/YYYYDDMM/
 
 # data/collected/disp/agencies/YYYY_MM_DD/federal-agencies.xlsx:
 #   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
-#   url: gitx/
+#   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/YYYYDDMM/
 
 

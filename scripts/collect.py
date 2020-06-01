@@ -38,18 +38,18 @@ def main():
     for filename, url in collect_inventory():
         dest_path = Path(filename)
 
-        stderr.write("\n")
+        stderr.write(f"\n{dest_path}\n")
         if dest_path.is_file() and dest_path.stat().st_size > 1023:
-            stderr.write(f'{dest_path} already exists with {dest_path.stat().st_size} bytes\n')
+            stderr.write(f'\talready exists: {dest_path.stat().st_size} bytes\n')
         else:
-            stderr.write(f"Downloading: {url}\n")
+            stderr.write(f"\tDownloading: {url}\n")
 
             content = fetch_file(url)
 
             dest_path.parent.mkdir(exist_ok=True, parents=True)
             dest_path.write_bytes(content)
 
-            stderr.write(f"\tWrote {len(content)} bytes to: {dest_path}\n")
+            stderr.write(f"\tWrote {len(content)} bytes\n")
 
 
 if __name__ == '__main__':

@@ -4,11 +4,11 @@
 
 
 - [TheUpshot/Military-Surplus-Gear](https://github.com/TheUpshot/Military-Surplus-Gear)
+- [nprapps/leso](https://github.com/nprapps/leso)
 - [1033 Program FAQs](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/ProgramFAQs.aspx)
 - [LESO Public Information page](https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/)
 - MuckRock: [Every item distributed to local law enforcement by the Pentagon’s 1033 program over two years](https://www.muckrock.com/news/archives/2014/aug/15/we-have-pentagon-1033-program-data/) (2014)
 - [State of California's 1033 LESO page, with state specific info and data (internet archived)](https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx)
-
 
 ## Stories
 

@@ -2,7 +2,7 @@
 #  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
 #   know not just the source URL, but the context of the dataset when published
 
-data/collected/leso/dod/disp-all-states-2020-03-31.xlsx:
+data/collected/leso/dod/disp-states-all-2020-03-31.xlsx:
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_03312020.xlsx
   landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
@@ -45,7 +45,7 @@ data/collected/leso/dod/disp-fy2017-2018.xlsx:
 
 ##############
 
-data/collected/leso/dod/disp-all-states-2019-12-31.xlsx:
+data/collected/leso/dod/disp-states-all-2019-12-31.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312019.xlsx
 
@@ -62,7 +62,7 @@ data/collected/leso/dod/disp-federal-agencies-2019-12-31.xlsx:
 ####
 
 
-data/collected/leso/dod/disp-all-states-2018-12-31.xlsx:
+data/collected/leso/dod/disp-states-all-2018-12-31.xlsx:
   landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312018.xlsx
 
@@ -79,7 +79,7 @@ data/collected/leso/dod/disp-federal-agencies-2018-12-31.xlsx:
 #### 2017 data
 
 
-data/collected/leso/dod/disp-all-states-2017-12-31.xlsx:
+data/collected/leso/dod/disp-states-all-2017-12-31.xlsx:
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
 
 
@@ -88,7 +88,7 @@ data/collected/leso/dod/disp-all-states-2017-12-31.xlsx:
 
 #### 2016 data
 
-data/collected/leso/dod/disp-all-states-2016-12-31.xlsx:
+data/collected/leso/dod/disp-states-all-2016-12-31.xlsx:
   landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312016.xlsx
   description: |
@@ -101,7 +101,7 @@ data/collected/leso/dod/disp-cancellations-2016-12-31.xlsx:
     FOIA: LESO Information for Pending Requests, Shipments (Transfers) and Cancellations of Property
 
 
-data/collected/leso/dod/disp-leso-2006-to-201407.xlsx:
+data/collected/leso/dod/disp-states-all-2006-to-201407.xlsx:
   url: https://drive.google.com/u/0/uc?id=0ByME-GBaHL24c0RKbHhaNktnSTQ&export=download
   landing_page: https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx
   description: |
@@ -112,6 +112,28 @@ data/collected/leso/dod/disp-leso-2006-to-201407.xlsx:
     LESO-Jan-2006-to-April-2014.xlsxFederal List - January 2006 to July 2014
 
     This is a list created and provided by the Law Enforcement Support Office (LESO).  It does not include more specific information provided by Cal OES in the above list.  For information about how this list was compiled, contact DLA Disposition Services (Public Affairs),  (269) 961-7015, DLADISPO@DLA.MIL.
+
+
+
+
+
+##### 2015 data
+
+data/collected/leso/dod/disp-states-alaska-to-louisiana-2015-03-31.xlsx:
+  landing_page: https://web.archive.org/web/20150426151638/http://www.dispositionservices.dla.mil/EFOIA-Privacy/Pages/ereadingroom.aspx
+  url: https://github.com/nprapps/leso/raw/master/src/Alaska_Louisiana.xls
+  description: |
+    LESO property transferred to participating agencies (Current data to March 31, 2015)
+
+    Mirrored on May 20, 2015 (?!): https://github.com/nprapps/leso/tree/master/src
+
+data/collected/leso/dod/disp-states-mass-to-wyoming-and-territories-2015-03-31.xlsx:
+  landing_page: https://web.archive.org/web/20150426151638/http://www.dispositionservices.dla.mil/EFOIA-Privacy/Pages/ereadingroom.aspx
+  url: https://github.com/nprapps/leso/raw/master/src/Massachussetts_Wyoming_Territories.xls
+  description: |
+    LESO property transferred to participating agencies (Current data to March 31, 2015)
+
+    Mirrored on May 20, 2015 (?!): https://github.com/nprapps/leso/tree/master/src
 
 ### california
 

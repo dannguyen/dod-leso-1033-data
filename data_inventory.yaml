@@ -230,6 +230,10 @@ data/collected/disp/agencies/2017-03-31/all-states.xlsx:
 data/collected/disp/agencies/2016-12-31/all-states.xlsx:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-12-31/DISP_AllStatesAndTerritories_12312016.xlsx
+  alt_landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
+  alt_url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312016.xlsx
+  description: |
+    FOIA: Law Enforcement Support Office (LESO) Excess Department of Defense Property Transferred to Participating Agencies
 
 data/collected/disp/agencies/2016-12-31/cancellations.xlsx:
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312016.xlsx
@@ -325,6 +329,27 @@ data/collected/disp/agencies/2014-11-21/states-AK-LA.xls:
 data/collected/disp/agencies/2014-11-21/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2014-11-21/tacticalatLEAMA-WYandTerr.xls
+
+
+########################COUNTIES
+
+
+data/collected/disp/counties/2014-04-30/all-states.xlsx:
+  url: https://drive.google.com/u/0/uc?id=0ByME-GBaHL24c0RKbHhaNktnSTQ&export=download
+  landing_page: https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx
+  description: |
+    Note: at least 2 entries have a ship date of 9/9/14, which seems erroneous
+
+    As mirrored by the state of California on Google Sheets:
+
+    https://drive.google.com/file/d/0ByME-GBaHL24c0RKbHhaNktnSTQ/edit?usp=sharing
+
+    LESO-Jan-2006-to-April-2014.xlsxFederal List - January 2006 to July 2014
+
+        This is a list created and provided by the Law Enforcement Support Office (LESO).  It does not include more specific information provided by Cal OES in the above list.  For information about how this list was compiled, contact DLA Disposition Services (Public Affairs),  (269) 961-7015, DLADISPO@DLA.MIL.
+
+
+
 
 
 ###################

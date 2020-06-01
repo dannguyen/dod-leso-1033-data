@@ -1,8 +1,6 @@
-# Just an informal way of noting where you got data from...
-#  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
-#   know not just the source URL, but the context of the dataset when published
+# THIS IS DEPRECATED; KEPT FOR POSTERITY
 
-data/collected/leso/dod/disp-states-all-2020-03-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2020-03-31.xlsx:
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_03312020.xlsx
   landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
@@ -12,7 +10,7 @@ data/collected/leso/dod/disp-states-all-2020-03-31.xlsx:
 
     This is the most recent quarterly update of the accountable property held by participating agencies.
 
-data/collected/leso/dod/disp-cancellations-2020-03-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-cancellations-2020-03-31.xlsx:
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_01012020_03312020.xlsx
   landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
@@ -21,7 +19,7 @@ data/collected/leso/dod/disp-cancellations-2020-03-31.xlsx:
     January 1 - March 31, 2020.
 
 
-data/collected/leso/dod/disp-federal-agencies-2020-03-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-federal-agencies-2020-03-31.xlsx:
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%202%20FY20.xlsx
   landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   description: |
@@ -32,7 +30,7 @@ data/collected/leso/dod/disp-federal-agencies-2020-03-31.xlsx:
     January 1 - March 31, 2020.
 
 
-data/collected/leso/dod/disp-fy2017-2018.xlsx:
+data/archived/internetarchive/leso/dod/disp-fy2017-2018.xlsx:
   landing_page: https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/FY17-18%20AMMO%20Shipped-State-Fed-Cancellations%2010022018.xlsx
   description: |
@@ -45,15 +43,15 @@ data/collected/leso/dod/disp-fy2017-2018.xlsx:
 
 ##############
 
-data/collected/leso/dod/disp-states-all-2019-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2019-12-31.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312019.xlsx
 
-data/collected/leso/dod/disp-cancellations-2019-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-cancellations-2019-12-31.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012019_12312019.xlsx
 
-data/collected/leso/dod/disp-federal-agencies-2019-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-federal-agencies-2019-12-31.xlsx:
   description: |
     The information includes all requests made during the time period of October 1 - December 31, 2019.
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
@@ -62,16 +60,16 @@ data/collected/leso/dod/disp-federal-agencies-2019-12-31.xlsx:
 ####
 
 
-data/collected/leso/dod/disp-states-all-2018-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2018-12-31.xlsx:
   landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312018.xlsx
 
-data/collected/leso/dod/disp-cancellations-2018-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-cancellations-2018-12-31.xlsx:
   landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Shipments_Cancellations_10012018_12312018%20V2.xlsx
 
 
-data/collected/leso/dod/disp-federal-agencies-2018-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-federal-agencies-2018-12-31.xlsx:
   landing_page: https://web.archive.org/web/20190211050445/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_Federal%20Agency%20Acquisitions_QTR%201%20FY19.xlsx
 
@@ -79,29 +77,29 @@ data/collected/leso/dod/disp-federal-agencies-2018-12-31.xlsx:
 #### 2017 data
 
 
-data/collected/leso/dod/disp-states-all-2017-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2017-12-31.xlsx:
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
 
 
-# data/collected/leso/dod/disp-cancellations-2017-12-31.xlsx:
+# data/archived/internetarchive/leso/dod/disp-cancellations-2017-12-31.xlsx:
 #   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312017.xlsx
 
 #### 2016 data
 
-data/collected/leso/dod/disp-states-all-2016-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2016-12-31.xlsx:
   landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312016.xlsx
   description: |
     FOIA: Law Enforcement Support Office (LESO) Excess Department of Defense Property Transferred to Participating Agencies
 
-data/collected/leso/dod/disp-cancellations-2016-12-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-cancellations-2016-12-31.xlsx:
   landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_PendingRequests_Shipments_Cancellations_12312016.xlsx
   description: |
     FOIA: LESO Information for Pending Requests, Shipments (Transfers) and Cancellations of Property
 
 
-data/collected/leso/dod/disp-states-all-2006-to-201407.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-all-2006-to-201407.xlsx:
   url: https://drive.google.com/u/0/uc?id=0ByME-GBaHL24c0RKbHhaNktnSTQ&export=download
   landing_page: https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx
   description: |
@@ -119,7 +117,7 @@ data/collected/leso/dod/disp-states-all-2006-to-201407.xlsx:
 
 ##### 2015 data
 
-data/collected/leso/dod/disp-states-alaska-to-louisiana-2015-03-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-alaska-to-louisiana-2015-03-31.xlsx:
   landing_page: https://web.archive.org/web/20150426151638/http://www.dispositionservices.dla.mil/EFOIA-Privacy/Pages/ereadingroom.aspx
   url: https://github.com/nprapps/leso/raw/master/src/Alaska_Louisiana.xls
   description: |
@@ -127,7 +125,7 @@ data/collected/leso/dod/disp-states-alaska-to-louisiana-2015-03-31.xlsx:
 
     Mirrored on May 20, 2015 (?!): https://github.com/nprapps/leso/tree/master/src
 
-data/collected/leso/dod/disp-states-mass-to-wyoming-and-territories-2015-03-31.xlsx:
+data/archived/internetarchive/leso/dod/disp-states-mass-to-wyoming-and-territories-2015-03-31.xlsx:
   landing_page: https://web.archive.org/web/20150426151638/http://www.dispositionservices.dla.mil/EFOIA-Privacy/Pages/ereadingroom.aspx
   url: https://github.com/nprapps/leso/raw/master/src/Massachussetts_Wyoming_Territories.xls
   description: |
@@ -137,7 +135,7 @@ data/collected/leso/dod/disp-states-mass-to-wyoming-and-territories-2015-03-31.x
 
 ### california
 
-data/collected/leso/states/disp-leso-california-2014-06-25.xlsx:
+data/archived/internetarchive/leso/states/disp-leso-california-2014-06-25.xlsx:
   url: https://drive.google.com/u/0/uc?id=0ByME-GBaHL24bmJ3Y2k0VDRYREE&export=download
   landing_page: https://web.archive.org/web/20150109173247/http://www.calema.ca.gov/publicsafetyandvictimservices/pages/about-the-1033-program.aspx
 
@@ -145,5 +143,5 @@ data/collected/leso/states/disp-leso-california-2014-06-25.xlsx:
     California Agency Inventory as of 06-25-2014.xlsx
 
     Curated by Cal OES from the (federal) Law Enforcement Support Office database dated June 25, 2014.  This is a snapshot in time and may not reflect more recent transactions within the LESO's dynamically changing database.  This is the same place where Cal OES auditors pull their lists to do individual agency accountability checks throughout the year.  This spreadsheet is the only inventory list Cal OES retains outside of the LESO database - there are no historical inventories retained by Cal OES.  Certain information was redacted from the spreadsheet, including national stock numbers, serial numbers and code to prevent these identifying numbers from being used for fraudulent purposes.
-# data/collected/leso/_2017.xlsx:
+# data/archived/internetarchive/leso/_2017.xlsx:
 #   landing_page: http://web.archive.org/web/20171202070916/http://www.dla.mil/HQ/GeneralCounsel/FOIA.aspx

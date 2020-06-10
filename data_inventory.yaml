@@ -4,14 +4,24 @@
 
 ### crosswalks
 
+data/archived/reference/demil-codes.html:
+  url: https://www.dla.mil/Portals/104/Documents/DispositionServices/ddsr/userguide/demilcodes.html
+  description: |
+    DEMIL Codes to be Assigned to Federal Supply Items and Coding Guidance
 
-data/archived/crosswalks/psc-category-alignment-2020-04.xlsx:
+data/archived/reference/demil-manual.pdf:
+  url: https://www.colorado.gov/pacific/csp/atom/16431
+  description: |
+    Contains codes and DEMIL IC (integrity codes)
+
+
+data/archived/reference/psc-category-alignment-2020-04.xlsx:
   url: https://www.acquisition.gov/sites/default/files/manual/PSC_Category_Alignment_April_2020.xlsx
   landing_page: https://www.acquisition.gov/content/psccategoryalignmentapril2020xlsx
   description: |
     No idea what this is, but saving it anyway
 
-data/archived/crosswalks/psc-codes-2020-3.xls:
+data/archived/reference/psc-codes-2020-3.xls:
   url: https://www.acquisition.gov/sites/default/files/manual/PSC_Data_March_2020_Edition.xls
   landing_page: https://www.acquisition.gov/content/pscdatamarch2020editionxls
 

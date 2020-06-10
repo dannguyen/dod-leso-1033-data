@@ -1,9 +1,14 @@
 # TODOs
 
-- [ ] Compile extracted CSVs, add book_name, sheet_name, filedate fields
-
+- [X] Compile extracted CSVs, add book_name, sheet_name, filedate fields
 - [x] Extract CSVs from every collected XLSX
     - [ ] Modify extract_csvs.py to handle older xls files
+
+- [ ] Manually hand make the demil tables
+- [ ] Wrangling
+    - Remove unnecessary columns, e.g. station_type, book_name, sheet_name
+    
+
 
 
 ## Later tasks
@@ -60,3 +65,21 @@ cat data/compiled/state-agencies.csv | xsv search 'AUSTIN POLICE' --select stati
 
     \
     | xsv search '5855-01-448-5464'
+
+
+
+## demil code count
+
+```
+xsv select 'demil_code' data/compiled/state-agencies.csv  | sort | uniq -c 
+   2 ""
+458469 A
+82108 B
+115319 C
+1793431 D
+4121 E
+108433 F
+77132 Q
+   3 X
+   1 demil_code
+```

@@ -2,6 +2,19 @@
 #  I typically use it just for data/collected, i.e. for downloaded data, when it's important to
 #   know not just the source URL, but the context of the dataset when published
 
+### crosswalks
+
+
+data/archived/crosswalks/psc-category-alignment-2020-04.xlsx:
+  url: https://www.acquisition.gov/sites/default/files/manual/PSC_Category_Alignment_April_2020.xlsx
+  landing_page: https://www.acquisition.gov/content/psccategoryalignmentapril2020xlsx
+  description: |
+    No idea what this is, but saving it anyway
+
+data/archived/crosswalks/psc-codes-2020-3.xls:
+  url: https://www.acquisition.gov/sites/default/files/manual/PSC_Data_March_2020_Edition.xls
+  landing_page: https://www.acquisition.gov/content/pscdatamarch2020editionxls
+
 ### 2020-03-31
 
 data/collected/disp/agencies/2020-03-31/all-states.xlsx:

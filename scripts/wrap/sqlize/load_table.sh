@@ -1,8 +1,8 @@
 #!/bin/sh
 
-DB_NAME=$1
-SRC_DIR=$2
-PREFIX=$3
+DB_PATH=$1
+SRC_PATH=$2
+TABLE_NAME=$3
 
 mkdir -p $(dirname $DB_NAME)
 

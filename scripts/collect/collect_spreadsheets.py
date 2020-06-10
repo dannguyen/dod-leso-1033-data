@@ -24,7 +24,7 @@ def collect_inventory():
     filtered for data/collected prefixes
     """
     mani = yaml.load(INVENTORY_PATH.open(), Loader=yaml.BaseLoader)
-    return [(filepath, v['url']) for filepath, v in mani.items() if 'data/collected' in filepath]
+    return [(filepath, v['url']) for filepath, v in mani.items() if 'data/' in filepath]
 
 
 def fetch_file(url):

@@ -73,13 +73,13 @@ data/collected/disp/agencies/2019-09-30/federal-agencies.xlsx:
 
 
 
-######################################################################################################### 
-############ 
-############         
-############ 
-############ 
+#########################################################################################################
+############
+############
+############
+############
 ############ MARSHALL PROJECT FILES
-############ 
+############
 
 
 
@@ -270,54 +270,54 @@ data/collected/disp/agencies/2016-04-04/all-states.xlsx:
 # 2016-03-20
 
 # Marshall Project README.md
-# Sometime in the late fall/winter of 2016, the Defence Logistics Agency moved its website and ceased updating its previous URL, which we had been monitoring. 
-# As a result, there was one quarterly update in early 2016 that covered the 1033 program through Dec. 31, 2015 that we initially missed. 
-# The data in this folder was gathered from the Wayback Machine, which took [this snapshot on March 20, 2016](https://web.archive.org/web/20160320084733/http://www.dla.mil/DispositionServices/FOIA/EFOIALibrary.aspx), and is date-stamped accordingly. 
+# Sometime in the late fall/winter of 2016, the Defence Logistics Agency moved its website and ceased updating its previous URL, which we had been monitoring.
+# As a result, there was one quarterly update in early 2016 that covered the 1033 program through Dec. 31, 2015 that we initially missed.
+# The data in this folder was gathered from the Wayback Machine, which took [this snapshot on March 20, 2016](https://web.archive.org/web/20160320084733/http://www.dla.mil/DispositionServices/FOIA/EFOIALibrary.aspx), and is date-stamped accordingly.
 #It's unclear on what date this update to the data was originally posted, but it likely would have been in early February
 
-data/collected/disp/agencies/2016-03-20/states-AK-LA.xlsx:
+data/collected/disp/agencies/2016-03-20/states-AK-LA.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-03-20/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/2016-03-20/states-MA-WY-Territories.xlsx:
+data/collected/disp/agencies/2016-03-20/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2016-03-20/Massachussetts_Wyoming_Territories.xls
-  
+
 
 # 2015-10-07
-data/collected/disp/agencies/2015-10-07/states-AK-LA.xlsx:
+data/collected/disp/agencies/2015-10-07/states-AK-LA.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-10-07/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/2015-10-07/states-MA-WY-Territories.xlsx:
+data/collected/disp/agencies/2015-10-07/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-10-07/Massachussetts_Wyoming_Territories.xls
 
 
 # 2015-07-14
-data/collected/disp/agencies/2015-07-14/states-AK-LA.xlsx:
+data/collected/disp/agencies/2015-07-14/states-AK-LA.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-07-14/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/2015-07-14/states-MA-WY-Territories.xlsx:
+data/collected/disp/agencies/2015-07-14/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-07-14/Massachussetts_Wyoming_Territories.xls
 
 # 2015-04-07
-data/collected/disp/agencies/2015-04-07/states-AK-LA.xlsx:
+data/collected/disp/agencies/2015-04-07/states-AK-LA.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-04-07/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/2015-04-07/states-MA-WY-Territories.xlsx:
+data/collected/disp/agencies/2015-04-07/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-04-07/Massachussetts_Wyoming_Territories.xls
 
 # 2015-02-06
-data/collected/disp/agencies/2015-02-06/states-AK-LA.xlsx:
+data/collected/disp/agencies/2015-02-06/states-AK-LA.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-02-06/Alaska_Louisiana.xls
 
-data/collected/disp/agencies/2015-02-06/states-MA-WY-Territories.xlsx:
+data/collected/disp/agencies/2015-02-06/states-MA-WY-Territories.xls:
   landing_page: https://github.com/danforked/dod1033/tree/master/data/dod_releases/agencylev
   url: https://github.com/danforked/dod1033/raw/master/data/dod_releases/agencylev/2015-02-06/Massachussetts_Wyoming_Territories.xls
 

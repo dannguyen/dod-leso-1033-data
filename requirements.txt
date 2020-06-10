@@ -1,3 +1,5 @@
 pytest
 PyYaml>=5.1
 requests>=2.0
+openpyxl>=2.6
+xlrd>=1.2

@@ -34,7 +34,7 @@ data/collected/disp/agencies/2020-03-31/federal-agencies.xlsx:
     January 1 - March 31, 2020.
 
 ### 2019-12-31
-data/collected/disp/agencies/2019-12-31/states-all.xlsx:
+data/collected/disp/agencies/2019-12-31/all-states.xlsx:
   landing_page: https://web.archive.org/web/20200110071726/https://www.dla.mil/DispositionServices/Offers/Reutilization/LawEnforcement/PublicInformation/
   url: https://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312019.xlsx
 
@@ -179,7 +179,7 @@ data/collected/disp/agencies/2018-03-31/cancellations.xlsx:
 
 #### 2017-12-31
 
-data/collected/disp/agencies/2017-12-31/states-all.xlsx:
+data/collected/disp/agencies/2017-12-31/all-states.xlsx:
   url: http://www.dla.mil/Portals/104/Documents/DispositionServices/LESO/DISP_AllStatesAndTerritories_12312017.xlsx
   description: |
     Could not find a landing page that links to this file; the URL was found

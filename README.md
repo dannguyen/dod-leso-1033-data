@@ -19,6 +19,8 @@ Check out [data_inventory.yaml](./data_inventory.yaml) to see where each data fi
 
 - [BuzzFeed 2020 Analysis](https://github.com/BuzzFeedNews/2020-06-leso-1033-transfers-since-ferguson)
 
+- [IRE repo](https://github.com/ireapps/dod-excess-property-transfers)
+
 ### Some data/publication links
 
 - [TheUpshot/Military-Surplus-Gear](https://github.com/TheUpshot/Military-Surplus-Gear)

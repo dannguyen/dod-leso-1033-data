@@ -2,6 +2,7 @@
 
 # Intermediary files that aren't saved to the repo
 data/compiled/state-agencies.csv
+*.sqlite
 
 
 *.egg-info

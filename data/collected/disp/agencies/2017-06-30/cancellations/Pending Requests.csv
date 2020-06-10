@@ -1,0 +1,811 @@
+State,Requesting Agency Name,Equipment Requested,Quantity Approved,Date Request was Approved (Pending Allocation)
+AL,Abbeville PD,Peacekeeper,1,2016-08-09 00:00:00
+AL,Bear Creek PD,HMMWV,3,2016-05-05 00:00:00
+AL,Blountsville PD,MRAP,1,2017-06-06 00:00:00
+AL,Blountsville PD,Truck Tractor,1,2017-06-06 00:00:00
+AL,Blountsville PD,Truck Dump,1,2017-06-06 00:00:00
+AL,Blountsville PD,HMMWV,1,2017-06-06 00:00:00
+AL,Blountsville PD,HMMWV,1,2017-06-06 00:00:00
+AL,Blountsville PD,UAH,1,2017-06-06 00:00:00
+AL,Blountsville PD,UAH,1,2017-06-06 00:00:00
+AL,Cullman CSO,Truck Utility,4,2017-03-10 00:00:00
+AL,Cullman CSO,UAH,1,2017-03-10 00:00:00
+AL,Dadeville PD,HMMWV,3,2016-05-05 00:00:00
+AL,Dauphin Island PD,HMMWV,1,2016-09-30 00:00:00
+AL,Dothan PD,MRAP,1,2017-04-12 00:00:00
+AL,Fort Payne PD,HMMWV,1,2016-06-20 00:00:00
+AL,Fort Payne PD,HMMWV,1,2016-06-20 00:00:00
+AL,Fort Payne PD,HMMWV,1,2016-06-20 00:00:00
+AL,Fort Payne PD,HMMWV,1,2016-06-20 00:00:00
+AL,Fort Payne PD,HMMWV,1,2016-06-20 00:00:00
+AL,Fort Payne PD,MRAP,1,2016-06-20 00:00:00
+AL,Guntersville PD,HMMWV,8,2016-01-11 00:00:00
+AL,Guntersville PD,Truck Tractor,2,2016-01-11 00:00:00
+AL,Guntersville PD,MRAP,4,2016-01-11 00:00:00
+AL,Jacksonville PD,HMMWV,2,2016-02-11 00:00:00
+AL,Lauderdale CSO,HMMWV,3,2017-05-17 00:00:00
+AL,Leighton PD,HMMWV,2,2016-10-25 00:00:00
+AL,Limestone County SO,MRAP,1,2016-01-11 00:00:00
+AL,Russell CSO,Truck Utility,2,2017-04-12 00:00:00
+AL,Tuscaloosa PD,Truck Cargo,1,2016-01-11 00:00:00
+AL,Tuscaloosa PD,Truck Cargo,1,2016-01-11 00:00:00
+AL,Tuscaloosa PD,HMMWV,1,2016-01-11 00:00:00
+AL,Tuscaloosa PD,HMMWV,1,2016-01-11 00:00:00
+AL,Wadley PD,HMMWV,1,2016-08-09 00:00:00
+AL,Wadley PD,HMMWV,1,2016-08-09 00:00:00
+AL,Walker County SO,"Breaching Apparatus
+Riot Helmets
+Riot Shields","2
+20
+5",2016-04-19 00:00:00
+AL,Walker County SO,HMMWV,1,2016-05-05 00:00:00
+AL,Walker County SO,HMMWV,1,2016-05-05 00:00:00
+AL,Winfield PD,HMMWV,1,2016-01-11 00:00:00
+AL,Winfield PD,HMMWV,1,2016-01-11 00:00:00
+AR,Benton CSO,HMMWV,3,2017-04-13 00:00:00
+AR,Lawrence CSO,Truck Cargo,1,2017-06-06 00:00:00
+AR,North Little Rock PD,UAH,1,2017-04-13 00:00:00
+AR,Ozark PD,"Van, Truck",1,2015-12-08 00:00:00
+AR,Prairie CSO     ,HMMWV,1,2016-08-18 00:00:00
+AR,Prairie CSO     ,HMMWV,1,2016-08-18 00:00:00
+AR,Saline CSO,UAH,2,2017-01-24 00:00:00
+AR,Siloam Springs PD,UAH,2,2016-12-19 00:00:00
+AZ,Avondale PD,HMMWV,1,2017-04-19 00:00:00
+AZ,Clarkdale Police Dept,"Truck, Cargo",1,2016-06-20 00:00:00
+AZ,Prescott PD,HMMWV,2,2017-02-16 00:00:00
+AZ,Superior PD,HMMWV,3,2016-04-26 00:00:00
+AZ,Superior PD,"Truck, Cargo",1,2016-11-30 00:00:00
+CA,Blythe PD,UAH,1,2017-05-17 00:00:00
+CA,Marina PD,MRAP,1,2016-08-09 00:00:00
+CA,Newark PD,HMMWV,1,2017-06-30 00:00:00
+CO,Elbert County SO,"Carrier, cargo",1,2016-06-08 00:00:00
+CO,Elbert County SO,"Truck, Cargo",2,2016-06-08 00:00:00
+CO,Grand CSO,Peacekeeper,1,2017-01-05 00:00:00
+CO,Otero County SO,MRAP,1,2016-01-06 00:00:00
+CO,Platteville PD,HMMWV,1,2015-12-08 00:00:00
+CO,Saguache CSO,UAH,2,2017-01-06 00:00:00
+CT,Bridgeport PD,MRAP,1,2016-10-04 00:00:00
+CT,Bristol PD,UAH,1,2017-04-12 00:00:00
+CT,Groton Town PD,UAH,1,2017-05-10 00:00:00
+CT,Middlebury PD,HMMWV,1,2017-06-15 00:00:00
+CT,Newtown PD,HMMWV,1,2016-08-09 00:00:00
+CT,Newtown PD,UAH,1,2017-02-16 00:00:00
+CT,State Police,UAH,1,2017-02-28 00:00:00
+CT,West Haven DPS,MRAP,1,2016-01-06 00:00:00
+DE,Dover PD,HMMWV,1,2016-06-20 00:00:00
+DE,New Castle County PD,MRAP,2,2016-01-27 00:00:00
+FL,Brooksville PD,HMMWV,5,2016-04-07 00:00:00
+FL,Calhoun County SO,MRAP,1,2016-02-11 00:00:00
+FL,Clay CSO,HMMWV,1,2017-06-06 00:00:00
+FL,Clay CSO,HMMWV,1,2017-06-06 00:00:00
+FL,Clearwater PD,HMMWV,2,2016-10-25 00:00:00
+FL,Clermont PD,MRAP,1,2016-09-30 00:00:00
+FL,Flagler CSO,Truck Cargo,1,2017-06-30 00:00:00
+FL,Flagler CSO,Truck Cargo,1,2017-06-30 00:00:00
+FL,Hialeah PD,HMMWV,2,2016-09-16 00:00:00
+FL,Juno Beach PD,HMMWV,1,2016-08-09 00:00:00
+FL,Okeechobee Sheriffs Office,MRAP,1,2016-05-05 00:00:00
+FL,Pasco CSO,MRAP,1,2016-06-20 00:00:00
+FL,Pasco CSO,"Truck, Cargo",1,2016-11-30 00:00:00
+FL,Pasco CSO,"Truck, Cargo",1,2016-11-30 00:00:00
+FL,Pembroke Pines PD,MRAP,1,2016-01-27 00:00:00
+FL,Plant City PD,MRAP,1,2016-01-06 00:00:00
+FL,Port St. Joe PD,HMMWV,1,2016-01-27 00:00:00
+FL,Sebastian PD,UAH,1,2017-03-28 00:00:00
+FL,Temple Terrace PD,HMMWV,1,2017-03-28 00:00:00
+GA,Abbeville PD,HMMWV,1,2015-10-15 00:00:00
+GA,Breman PD,Breaching Apparatus,2,2015-11-10 00:00:00
+GA,Breman PD,Riot Batons,5,2015-11-10 00:00:00
+GA,Breman PD,Riot Helmets,5,2015-11-10 00:00:00
+GA,Breman PD,Riot Shields,5,2015-11-10 00:00:00
+GA,Breman PD,HMMWV,1,2016-11-30 00:00:00
+GA,Breman PD,HMMWV,1,2016-11-30 00:00:00
+GA,Breman PD,HMMWV,1,2016-11-30 00:00:00
+GA,Bremen PD,HMMWV,1,2015-12-08 00:00:00
+GA,Bremen PD,HMMWV,1,2015-12-08 00:00:00
+GA,Burke CSO,HMMWV,1,2017-02-07 00:00:00
+GA,Burke CSO,HMMWV,1,2017-02-07 00:00:00
+GA,Burke CSO,HMMWV,1,2017-02-07 00:00:00
+GA,Burke CSO,HMMWV,1,2017-02-07 00:00:00
+GA,Burke CSO,MRAP,1,2017-03-03 00:00:00
+GA,Burke CSO,UAH,2,2017-03-03 00:00:00
+GA,Camden County SO,HMMWV,2,2016-03-16 00:00:00
+GA,Chatsworth PD,HMMWV,2,2015-12-08 00:00:00
+GA,Columbia CSO,UAH,2,2017-05-10 00:00:00
+GA,Cornelia PD,HMMWV,4,2016-03-16 00:00:00
+GA,Cornelia PD,MRAP,1,2015-12-15 00:00:00
+GA,Elbert County SO,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","32
+32
+32
+32",2016-04-07 00:00:00
+GA,Elbert County SO,HMMWV,5,2016-04-07 00:00:00
+GA,Fannin CSO,HMMWV,11,2016-05-05 00:00:00
+GA,Forsyth CSO,Riot Shields,37,2017-06-15 00:00:00
+GA,Forsyth CSO,Truck Cargo,1,2017-06-15 00:00:00
+GA,Forsyth CSO,Truck Cargo,1,2017-06-15 00:00:00
+GA,GA Public Safety Training Center,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","29
+29
+29
+29",2016-04-19 00:00:00
+GA,GA Public Safety Training Center,HMMWV,5,2016-06-20 00:00:00
+GA,Greene CSO,HMMWV,2,2016-10-25 00:00:00
+GA,Lumpkin PD,HMMWV,1,2017-05-10 00:00:00
+GA,Newnan PD,HMMWV,20,2016-10-26 00:00:00
+GA,Perry PD,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","5
+39
+39
+39",2016-08-17 00:00:00
+GA,Perry PD,HMMWV,5,2016-08-18 00:00:00
+GA,Spalding CSO,UAH,1,2017-05-23 00:00:00
+GA,Spalding CSO,HMMWV,5,2017-05-23 00:00:00
+GA,Swainsboro PD,HMMWV,7,2016-12-19 00:00:00
+GA,Swainsboro PD,UAH,2,2017-04-19 00:00:00
+GA,Taliaferro CSO,HMMWV,1,2017-04-13 00:00:00
+GA,Taliaferro CSO,UAH,1,2017-04-13 00:00:00
+GA,Tallapoosa PD,HMMWV,4,2016-11-30 00:00:00
+GA,Tattnall County SO,MRAP,1,2017-03-23 00:00:00
+GA,Tattnall County SO,Truck Utility,4,2017-03-23 00:00:00
+GA,Tattnall County SO,UAH,1,2017-03-23 00:00:00
+GA,Warner Robins PD,Armored Breaching Vehicle,2,2016-12-15 00:00:00
+GA,Warner Robins PD,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","10
+150
+150
+150",2015-11-10 00:00:00
+GA,Warner Robins PD,HMMWV,5,2015-12-08 00:00:00
+ID,Clark County SO,MRAP,1,2016-01-27 00:00:00
+ID,Idaho County SO,MRAP,1,2016-01-27 00:00:00
+ID,Lewiston PD,HMMWV,1,2016-01-27 00:00:00
+ID,Rigby PD,Tractor Truck,1,2016-02-29 00:00:00
+IL,Coles CSO,HMMWV,1,2016-06-20 00:00:00
+IL,Fondulac Park District Police,Truck Utility,1,2017-04-28 00:00:00
+IL, Green Valley PD,"Hemtt, Cargo Tuck",1,2016-04-07 00:00:00
+IL, Green Valley PD,HMMWV,1,2017-06-30 00:00:00
+IL,Knox County SO,MRAP,1,2016-02-29 00:00:00
+IL,Piatt CSO,HMMWV,1,2016-06-20 00:00:00
+IL,Schuyler CSO,HMMWV,2,2016-12-19 00:00:00
+IN,Attica PD,HMMWV,2,2016-01-27 00:00:00
+IN,Clay CSO,MRAP,1,2016-09-01 00:00:00
+IN,Evansville PD,UAH,4,2017-06-06 00:00:00
+IN,Evansville PD,Dump Truck,1,2016-02-20 00:00:00
+IN,Evansville PD,Dump Truck,1,2016-02-20 00:00:00
+IN,Evansville PD,HMMWV,1,2016-04-15 00:00:00
+IN,Evansville PD,HMMWV,1,2016-04-15 00:00:00
+IN,Evansville PD,HMMWV,1,2016-04-15 00:00:00
+IN,Evansville PD,HMMWV,1,2016-04-15 00:00:00
+IN,Evansville PD,Riot Shields,35,2016-03-16 00:00:00
+IN,Hancock CSO,HMMWV,1,2016-02-29 00:00:00
+IN,Hancock CSO,V 150,1,2017-04-13 00:00:00
+IN,Lawrence PD,HMMWV,1,2016-02-11 00:00:00
+IN,Milford PD,HMMWV,1,2016-02-22 00:00:00
+IN,Scott CSO,MRAP,1,2017-05-23 00:00:00
+KS,Montgomery CSO,HMMWV,1,2016-08-09 00:00:00
+KS,Montgomery CSO,HMMWV,1,2016-08-09 00:00:00
+KS,Montgomery CSO,HMMWV,1,2016-08-09 00:00:00
+KS,Montgomery CSO,UAH,1,2017-05-17 00:00:00
+KY,Alexandria PD,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","3
+17
+10
+17",2016-03-22 00:00:00
+KY,Alexandria PD,HMMWV,2,2016-04-04 00:00:00
+KY,Bullitt County SO,MRAP,1,2016-02-11 00:00:00
+KY,Campbellsville PD,Dump Truck,2,2016-08-18 00:00:00
+KY,Campbellsville PD,HMMWV,1,2016-08-18 00:00:00
+KY,Campbellsville PD,"Truck, Cargo",1,2016-08-18 00:00:00
+KY,Franklin Co So,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","42
+42
+42
+42",2016-08-12 00:00:00
+KY,Green County SO,HMMWV,3,2016-02-29 00:00:00
+KY,Johnson County SO,HMMWV,2,2016-02-29 00:00:00
+KY,Lancaster PD,Maint Truck,1,2016-08-16 00:00:00
+KY,Madisonville PD,Riot Shields,21,2017-03-03 00:00:00
+KY,Mason County SO,HMMWV,2,2016-02-29 00:00:00
+KY,Metcalfe CSD,"Truck, Cargo",1,2016-11-30 00:00:00
+KY,Monticello PD,"Truck, Cargo",2,2016-08-09 00:00:00
+KY,Morehead PD,HMMWV,1,2016-10-05 00:00:00
+KY,Mount Vernon PD,HMMWV,1,2016-02-11 00:00:00
+KY,Winchester PD,HMMWV,3,2016-01-27 00:00:00
+LA,Beauregard Parish SO,MRAP,1,2016-01-06 00:00:00
+LA,Catahoula Parish Sheriff Office,MRAP,1,2017-03-21 00:00:00
+MD,Berwyn Heights PD,UAH,1,2017-06-15 00:00:00
+MD,Bowie PD,UAH,1,2017-06-15 00:00:00
+MD,Prince George's County PD,MRAP,1,2016-02-11 00:00:00
+MD,Wicomico CSO,Riot Batons,200,2015-10-15 00:00:00
+MD,Wicomico CSO,Riot Helmets,200,2015-10-15 00:00:00
+MD,Wicomico CSO,Riot Shields,40,2015-10-15 00:00:00
+ME,Cumberland CSO,Riot Shields,18,2017-04-10 00:00:00
+MI,Albion Dept Public Safety,HMMWV,1,2017-06-20 00:00:00
+MI,Eastern Wayne County Reg Resp Team,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","13
+13
+13
+13",2015-11-10 00:00:00
+MI,Flint PD,HMMWV,2,2016-03-16 00:00:00
+MI,Flint PD,Peacekeeper,1,2016-03-16 00:00:00
+MI,Flint PD,MRAP,1,2016-03-16 00:00:00
+MI,Grosse Point Dept of Public Safety,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","35
+35
+35
+35",2015-11-10 00:00:00
+MI,Mt. Morris Twp PD,MRAP,1,2015-12-15 00:00:00
+MI,South Haven PD,Breaching Apparatus,10,2017-02-03 00:00:00
+MI,South Haven PD,Riot Batons,29,2017-02-03 00:00:00
+MI,South Haven PD,Riot Helmets,29,2017-02-03 00:00:00
+MI,South Haven PD,Riot Shields,29,2017-02-03 00:00:00
+MI,South Haven PD,HMMWV,1,2017-02-03 00:00:00
+MI,South Haven PD,MRAP,1,2017-02-03 00:00:00
+MI,Woodhaven PD,UAH,1,2017-03-03 00:00:00
+MN,Hubbard County SO,Batons,20,2017-03-28 00:00:00
+MN,Hubbard County SO,Helmets,20,2017-03-28 00:00:00
+MN,Hubbard County SO,MRAP,1,2016-01-06 00:00:00
+MN,Hubbard County SO,Shields,20,2017-03-28 00:00:00
+MN,Hubbard County SO,UAH,1,2017-03-28 00:00:00
+MN,Mille Lacs CSO,UAH,1,2017-04-13 00:00:00
+MN,Polk CSO,UAH,1,2017-04-13 00:00:00
+MN,Ramsey County SO,MRAP,1,2016-01-06 00:00:00
+MO,Benton CSO,HMMWV,1,2017-05-10 00:00:00
+MO,Miller CSO,UAH,1,2017-06-15 00:00:00
+MO,Miller CSO,UAH,1,2017-06-15 00:00:00
+MO,Newton CSO,HMMWV,1,2016-12-19 00:00:00
+MO,Shannon CSO,UAH,1,2017-06-30 00:00:00
+MO,Sullivan PD,HMMWV,1,2016-12-19 00:00:00
+MS,Brookhaven PD,HMMWV,1,2017-05-12 00:00:00
+MS,Brookhaven PD,MRAP,1,2017-05-12 00:00:00
+MS,Brookhaven PD,UAH,1,2017-05-12 00:00:00
+MS,Lincoln CSO,MRAP,1,2017-06-30 00:00:00
+MS,Lincoln CSO,HMMWV,1,2017-06-30 00:00:00
+MS,Marshall CSO,MRAP,1,2016-02-29 00:00:00
+MT,Havre PD,MRAP,1,2016-02-29 00:00:00
+NC,Aberdeen PD,"Riot Batons
+Riot Helmets
+Riot Shields","30
+30
+30",2016-10-04 00:00:00
+NC,Camden CSO,HMMWV,2,2016-12-20 00:00:00
+NC,Camden CSO,"Truck, Cargo",2,2016-12-20 00:00:00
+NC,Carolina Beach PD,"Truck, Cargo",1,2016-11-30 00:00:00
+NC,Duplin CSO,HMMWV,2,2016-12-19 00:00:00
+NC,Harnett CSO,HMMWV,1,2017-06-15 00:00:00
+NC,Hope Mills PD,Truck Utility,2,2017-04-28 00:00:00
+NC,King PD,HMMWV,1,2015-12-08 00:00:00
+NC,Lenoir CSO,HMMWV,1,2016-06-20 00:00:00
+NC,Nash CSO,HMMWV,1,2017-01-11 00:00:00
+NC,Nash CSO,HMMWV,1,2017-01-11 00:00:00
+NC,Nash CSO,HMMWV,1,2017-01-11 00:00:00
+NC,Salisbury PD,HMMWV,1,2015-12-08 00:00:00
+NC,Sampson CSO,HMMWV,2,2017-03-31 00:00:00
+NC,Tabor City PD,HMMWV,1,2015-12-08 00:00:00
+NC,Union CSO,LMTV,1,2017-04-13 00:00:00
+NC,Wayne CSO,MRAP,1,2016-10-12 00:00:00
+NC,Weldon PD,HMMWV,2,2017-02-03 00:00:00
+NC,Wilson CSO,MRAP,1,2016-12-05 00:00:00
+ND,Cavalier CSO,UAH,1,2017-04-13 00:00:00
+ND,Divide CSO,MRAP,1,2017-02-09 00:00:00
+ND,Mercer CSO,MRAP,1,2017-05-11 00:00:00
+ND,Mercer CSO,UAH,1,2017-05-11 00:00:00
+ND,Pembina CSO,MRAP,1,2017-04-12 00:00:00
+ND,Rolette CSO,UAH,1,2017-02-16 00:00:00
+ND,Williams CSO,MRAP,1,2016-01-06 00:00:00
+NH,Barnstead PD,Truck Utility,1,2017-04-28 00:00:00
+NH,Kingston PD,Truck Tractor,1,2017-05-17 00:00:00
+NJ, Union Twp PD,MRAP,1,2016-02-11 00:00:00
+NJ,Absecon PD,"Truck, Cargo",2,2016-10-26 00:00:00
+NJ,Atlantic City PD,Truck Cargo,1,2017-06-30 00:00:00
+NJ,Atlantic City PD,Truck Cargo,1,2017-06-30 00:00:00
+NJ,Atlantic City PD,HMMWV,1,2017-04-19 00:00:00
+NJ,Atlantic City PD,HMMWV,1,2017-04-19 00:00:00
+NJ,Atlantic City PD,UAH,1,2017-04-19 00:00:00
+NJ,Atlantic County SO,HMMWV,1,2015-11-13 00:00:00
+NJ,Beach Haven PD,"HMMWV
+Truck, Cargo","4
+2",2016-02-11 00:00:00
+NJ,Belleville PD,HMMWV,2,2015-12-08 00:00:00
+NJ,Belvidere PD,Truck Cargo,1,2017-06-30 00:00:00
+NJ,Bergen CSO,HMMWV,1,2016-05-05 00:00:00
+NJ,Bernardsville PD,HMMWV,1,2016-03-30 00:00:00
+NJ,Bernardsville PD,HMMWV,1,2016-03-30 00:00:00
+NJ,Bernardsville PD,HMMWV,1,2016-03-30 00:00:00
+NJ,Bernardsville PD,"Van, Truck",1,2016-03-30 00:00:00
+NJ,Bogota PD,HMMWV,3,2016-06-20 00:00:00
+NJ,Borough of Deal Police,UAH,1,2017-02-22 00:00:00
+NJ,Brick Twp PD,UAH,1,2017-02-22 00:00:00
+NJ,Brick Twp PD,Truck Van,1,2016-02-11 00:00:00
+NJ,Brick Twp PD,Truck Van,1,2016-02-11 00:00:00
+NJ,Brick Twp PD,Truck Van,1,2016-02-11 00:00:00
+NJ,Clifton PD,Riot Shields,18,2017-04-19 00:00:00
+NJ,Cranbury Twp Police,"Breaching App. 
+Riot Batons
+Riot Helmets
+Riot Shields","17
+17
+17
+17",2016-07-26 00:00:00
+NJ,Cranbury Twp Police,HMMWV,1,2016-06-20 00:00:00
+NJ,Cranbury Twp Police,"Truck, Cargo",1,2016-06-20 00:00:00
+NJ,Cranbury Twp Police,"Truck, Cargo",1,2016-06-20 00:00:00
+NJ,Cranford PD,UAH,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,HMMWV,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,HMMWV,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,HMMWV,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,HMMWV,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,HMMWV,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,Truck Cargo,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,Truck Cargo,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,Truck Van,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,Truck Van,1,2017-02-22 00:00:00
+NJ,East Brunswick PD,UAH,1,2017-02-22 00:00:00
+NJ,East Greenwich Twp PD,"HMMWV
+Truck, Cargo","1
+1",2016-02-11 00:00:00
+NJ,East Greenwich Twp PD,"Van, Truck",1,2016-03-07 00:00:00
+NJ,East Hanover PD,Riot Shields  ,30,2016-07-27 00:00:00
+NJ,Eastampton Twp PD,HMMWV,1,2016-02-11 00:00:00
+NJ,Edgewater PD,"Truck, Cargo",1,2016-01-06 00:00:00
+NJ,Edison PD,"Truck, Cargo",2,2016-10-25 00:00:00
+NJ,Edison PD,UAH,1,2017-02-22 00:00:00
+NJ,Englewood PD,HMMWV,1,2016-11-30 00:00:00
+NJ,Englewood PD,HMMWV,1,2016-11-30 00:00:00
+NJ,Englewood PD,HMMWV,1,2016-11-30 00:00:00
+NJ,Englewood PD,HMMWV,1,2016-11-30 00:00:00
+NJ,Fair Haven Borough PD,HMMWV,1,2016-11-30 00:00:00
+NJ,Fanwood,HMMWV,1,2017-06-15 00:00:00
+NJ,Florham Park PD,MMMWV,1,2017-06-30 00:00:00
+NJ,Franklin Lakes PD,HMMWV,1,2017-02-07 00:00:00
+NJ,Franklin Lakes PD,HMMWV,1,2017-02-07 00:00:00
+NJ,Garfield City PD,"Truck, Cargo",1,2016-05-05 00:00:00
+NJ,Garwood PD,HMMWV,1,2016-01-06 00:00:00
+NJ,Garwood PD,HMMWV,1,2016-01-06 00:00:00
+NJ,Green Brook PD,HMMWV,3,2016-05-26 00:00:00
+NJ,Green Brook PD,UAH,1,2017-04-28 00:00:00
+NJ,Howell Twp PD,HMMWV,1,2016-02-11 00:00:00
+NJ,Howell Twp PD,HMMWV,1,2016-02-11 00:00:00
+NJ,Howell Twp PD,HMMWV,1,2016-02-11 00:00:00
+NJ,Kearny PD,Riot Shields,44,2017-02-16 00:00:00
+NJ,Lacey Twp PD,HMMWV,1,2015-11-20 00:00:00
+NJ,Lacey Twp PD,HMMWV,1,2015-11-20 00:00:00
+NJ,Lacey Twp PD,Wrecker,1,2016-04-21 00:00:00
+NJ,Lakewood PD,HMMWV,1,2017-03-21 00:00:00
+NJ,Linwood PD,HMMWV,1,2017-04-13 00:00:00
+NJ,Linwood PD,UAH,1,2017-03-21 00:00:00
+NJ,Little Egg Harbor PD,HMMWV,3,2017-03-21 00:00:00
+NJ,Little Silver PD,HMMWV,1,2017-02-16 00:00:00
+NJ,Lodi PD,HMMWV,3,2016-01-06 00:00:00
+NJ,Mansfield Twp PD,HMMWV,2,2016-02-11 00:00:00
+NJ,Mantoloking PD,"Truck, Cargo",2,2015-12-08 00:00:00
+NJ,Marlboro Twp PD,Truck Cargo,1,2017-04-13 00:00:00
+NJ,Marlboro Twp PD,Truck Cargo,1,2017-04-13 00:00:00
+NJ,Medford Lakes PD,Riot Shields,11,2017-04-13 00:00:00
+NJ,Milltown PD,Breaching Apparatus,6,2017-04-12 00:00:00
+NJ,Milltown PD,HMMWV,1,2016-10-25 00:00:00
+NJ,Milltown PD,HMMWV,1,2016-10-25 00:00:00
+NJ,Milltown PD,HMMWV,1,2016-10-25 00:00:00
+NJ,Milltown PD,HMMWV,1,2016-01-06 00:00:00
+NJ,Milltown PD,Truck Cargo,1,2016-01-06 00:00:00
+NJ,Milltown PD,MRAP,1,2016-11-28 00:00:00
+NJ,Milltown PD,Riot Helmets,16,2017-04-12 00:00:00
+NJ,Milltown PD,Riot Shields,16,2017-04-12 00:00:00
+NJ,Milltown PD,"Truck, Cargo",2,2016-10-25 00:00:00
+NJ,Millville PD,Riot Shields,37,2017-02-16 00:00:00
+NJ,Monmouth Beach PD,HMMWV,2,2017-02-22 00:00:00
+NJ,Monmouth Beach PD,UAH,1,2017-04-28 00:00:00
+NJ,Moorestown Twp PD,UAH,1,2017-05-10 00:00:00
+NJ,Mountainside Police,HMMWV,1,2016-01-06 00:00:00
+NJ,Mullica TWP Police,"Truck, Cargo",1,2016-06-20 00:00:00
+NJ,Neptune Township PD,UAH,1,2017-03-03 00:00:00
+NJ,North Brunswick,"Breaching App.
+Riot Batons
+Riot Shields","6
+50
+50",2016-07-26 00:00:00
+NJ,North Brunswick,HMMWV,1,2016-08-16 00:00:00
+NJ,Ocean County SO,"Truck, Cargo",4,2016-10-25 00:00:00
+NJ,Ocean Gate Police,Dump Truck,1,2016-06-27 00:00:00
+NJ,Palisades Park PD,HMMWV,3,2016-08-12 00:00:00
+NJ,Palisades Park PD,"Riot Batons
+Riot Helmets
+Riot Shields","30
+30
+30",2016-08-02 00:00:00
+NJ,Palisades Park PD,Truck Van,3,2016-09-30 00:00:00
+NJ,Palisades Park PD,"Truck, Cargo",3,2016-08-12 00:00:00
+NJ,Paramus PD,MRAP,1,2016-01-27 00:00:00
+NJ,Passaic County SO,MRAP,1,2016-01-27 00:00:00
+NJ,Perth Amboy PD,Dump Truck ,4,2016-03-30 00:00:00
+NJ,Point Pleasant Beach PD,"Truck, Cargo",1,2016-05-26 00:00:00
+NJ,Point Pleasant Beach PD,"Truck, Cargo",1,2017-04-28 00:00:00
+NJ,Point Pleasant Beach PD,"Van, Truck",2,2016-02-04 00:00:00
+NJ,Ridgewood PD,UAH,1,2017-03-21 00:00:00
+NJ,Ringwood PD,UAH,1,2017-05-18 00:00:00
+NJ,Rivervale PD,"HMMWV
+LMTV Cargo Truck","2
+1",2016-02-11 00:00:00
+NJ,Rochelle Park PD,HMMWV,2,2016-03-16 00:00:00
+NJ,Roselle Park PD,Dump Truck,2,2016-05-05 00:00:00
+NJ,Roselle Park PD,UAH,1,2017-02-22 00:00:00
+NJ,Sayreville PD,"Truck, Cargo",1,2016-08-09 00:00:00
+NJ,Somers Point PD,HMMWV,1,2016-03-30 00:00:00
+NJ,Somers Point PD,"HMMWV
+Truck, Cargo","1
+1",2015-11-13 00:00:00
+NJ,South Bound Brook PD,HMMWV,2,2017-01-17 00:00:00
+NJ,Spring Lake Borough PD,MRAP,1,2016-01-27 00:00:00
+NJ,Springfield Twp Police,"Truck, Cargo",1,2016-06-20 00:00:00
+NJ,Summit PD,Truck Utility,2,2017-03-10 00:00:00
+NJ,Surf City PD,HMMWV,2,2016-02-22 00:00:00
+NJ,Township of Union PD,Truck Dump,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Dump,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Wrecker,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Wrecker,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Cargo,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Cargo ,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Van,1,2016-03-30 00:00:00
+NJ,Township of Union PD,Truck Van,1,2016-03-30 00:00:00
+NJ,Tuckerton Borough PD,Riot Shields,11,2016-08-02 00:00:00
+NJ,Union City PD,UAH,1,2017-04-19 00:00:00
+NJ,Wall Twp. PD,HMMWV,2,2016-11-30 00:00:00
+NJ,West New York PD,HMMWV,2,2017-02-22 00:00:00
+NJ,Westfield PD,HMMWV,4,2016-04-04 00:00:00
+NJ,Westwood PD,HMMWV,1,2017-06-30 00:00:00
+NJ,Westwood PD,HMMWV,1,2017-06-30 00:00:00
+NJ,Wildwood PD,"Truck, Cargo",2,2016-05-26 00:00:00
+NM,Eddy County SO,HMMWV,1,2016-06-27 00:00:00
+NM,San Miguel County SO,HMMWV,1,2016-03-16 00:00:00
+NV,Carson City SO,"Capabilities Set
+1367-01-561-5278
+Capability Set
+1367-01-561-5276","1
+
+1",2016-05-26 00:00:00
+NV,Las Vegas Metro PD,"Breaching Apparatus
+Riot Helmets
+Riot Shields
+Capabilities Set
+1367-01-561-5276
+","300
+300
+300
+1
+
+",2016-09-09 00:00:00
+NV,West Wendover Nevada PD,UAH,1,2017-02-16 00:00:00
+NY, Goshen PD,"Armored Truck
+Cargo Truck
+Van Truck","1
+1
+1",2016-03-16 00:00:00
+NY, Madison County SO,"HMMWV
+Truck Cargo","2
+1",2016-02-22 00:00:00
+NY,Chester Town PD,Peacekeeper,1,2017-03-28 00:00:00
+NY,Dutchess CSO,HMMWV,2,2016-12-21 00:00:00
+NY,Dutchess CSO,"Truck, Cargo",2,2016-12-21 00:00:00
+NY,East Hampton Town Police,"HMMWV
+Truck Cargo","2
+2",2016-02-22 00:00:00
+NY,Franklin CSO,HMMWV,2,2017-05-17 00:00:00
+NY,Franklin CSO,Truck Cargo,3,2017-05-17 00:00:00
+NY,Hamburg Town PD,HMMWV,2,2016-11-30 00:00:00
+NY,New York Sate Police,"Truck, Cargo",9,2016-11-30 00:00:00
+NY,Oneida CSO,HMMWV,3,2016-05-05 00:00:00
+NY,Oswego County SO,MRAP,1,2015-12-15 00:00:00
+NY,Port Chester PD,HMMWV,2,2016-11-30 00:00:00
+NY,Saugerties PD,UAH,1,2017-05-25 00:00:00
+NY,Southampton Town PD,MRAP,1,2017-06-15 00:00:00
+NY,Southampton Town PD,HMMWV,2,2016-01-27 00:00:00
+NY,Suffolk County PD,"HMMWV
+Truck, Tractor","12
+1",2015-11-02 00:00:00
+NY,Suffolk CSO,Carryall,2,2016-06-27 00:00:00
+NY,Suffolk CSO,HMMWV,6,2016-06-27 00:00:00
+NY,Suffolk CSO,Truck Tractor,2,2016-06-27 00:00:00
+NY,Suffolk CSO,Truck Van,2,2016-06-27 00:00:00
+NY,Suffolk CSO,"Truck, Cargo",2,2016-06-27 00:00:00
+NY,Town of Evans PD,HMMWV,2,2015-10-09 00:00:00
+NY,Town of Kent PD,HMMWV,1,2017-03-21 00:00:00
+NY,Town of Kent PD,UAH,1,2017-03-21 00:00:00
+OH,Belmont County SO,HMMWV,4,2015-11-13 00:00:00
+OH,Boardman PD,MRAP,1,2016-02-29 00:00:00
+OH,Circleville PD,MRAP,1,2016-05-05 00:00:00
+OH,Hancock County SO,MRAP,1,2016-02-22 00:00:00
+OH,Highland County SO,MRAP,1,2016-03-30 00:00:00
+OH,Lawrence CSO,HMMWV,1,2017-01-06 00:00:00
+OH,Mt. Orab PD,"HMMWV
+Tractor, Truck Cargo","1
+2",2015-11-13 00:00:00
+OH,Mt. Orab PD,MRAP,1,2016-02-22 00:00:00
+OH,Shelby CSO,HMMWV,1,2017-01-11 00:00:00
+OH,South Charleston PD,"Riot Helmets
+Riot Shields","12
+3",2016-03-29 00:00:00
+OH,South Point PD,HMMWV,1,2016-12-06 00:00:00
+OH,Summit CO SO,Riot Shields,20,2016-01-15 00:00:00
+OH,Union County SO,MRAP,1,2016-02-22 00:00:00
+OK,Ellis CSO,UAH,1,2017-04-28 00:00:00
+OK,Johnston CSO,UAH,1,2017-05-17 00:00:00
+OK,Mooreland PD,UAH,1,2017-02-22 00:00:00
+OK,Oklahoma Bureau of Narcotics,HMMWV,1,2017-02-03 00:00:00
+OK,Rogers County SO,"HMMWV
+Armored SUV","1
+1",2016-01-27 00:00:00
+OK,Shawnee PD,Truck Cargo,1,2017-02-01 00:00:00
+OK,Woodward CSO,UAH,1,2017-02-22 00:00:00
+OR,Benton CSO,Peacekeeper,1,2016-08-16 00:00:00
+OR,Columbia County SO,HMMWV,1,2017-01-19 00:00:00
+OR,Florence PD,HMMWV,1,2016-04-08 00:00:00
+OR,Junciton City PD,UAH,1,2017-06-30 00:00:00
+OR,Klamath CSO,UAH,1,2017-02-22 00:00:00
+OR,Marion County SO,HMMWV,2,2016-01-06 00:00:00
+PA,Lower Makefield Twp PD,"Truck, Cargo",1,2016-11-30 00:00:00
+PA,Moon Township Police,MRAP,1,2017-01-23 00:00:00
+PA,Moon Township Police,UAH,1,2017-01-23 00:00:00
+PA,Newberry Twp PD,HMMWV,2,2016-03-02 00:00:00
+PA,Northern Lancaster County Regional PD,HMMWV,1,2016-04-04 00:00:00
+SC,Aiken CSO,HMMWV,1,2016-12-19 00:00:00
+SC,Batesburg-Leesville PD,HMMWV,4,2016-10-25 00:00:00
+SC,Beaufort City Police,Cargo Truck,2,2017-01-30 00:00:00
+SC,Beaufort City Police,Van Truck,2,2017-01-30 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,HMMWV,1,2017-05-23 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Beaufort CSO,Cargo Truck,1,2017-05-10 00:00:00
+SC,Campobello PD,HMMWV,2,2016-12-06 00:00:00
+SC,Cherokee CSO,HMMWV,6,2016-09-30 00:00:00
+SC,Cherokee CSO,UAH,2,2017-03-28 00:00:00
+SC,City of Charleston PD,Truck Cargo,1,2017-03-21 00:00:00
+SC,Fairfield CSO,HMMWV,3,2016-08-16 00:00:00
+SC,Florence Regional Airport Police,HMMWV,1,2016-08-19 00:00:00
+SC,Folly Beach DPS,LMTV,2,2017-04-13 00:00:00
+SC,Folly Beach DPS,Truck Utility,2,2017-04-13 00:00:00
+SC,Folly Beach DPS,UAH,2,2017-04-13 00:00:00
+SC,Georgetown CSO,"Truck, Cargo",2,2016-11-09 00:00:00
+SC,Hampton CSO,MRAP,1,2017-05-25 00:00:00
+SC,Hampton CSO,LMTV,2,2017-05-25 00:00:00
+SC,Inman PD,HMMWV,3,2016-08-16 00:00:00
+SC,Jasper CSO,LMTV,1,2017-06-15 00:00:00
+SC,Jasper CSO,LMTV,1,2017-06-15 00:00:00
+SC,Jasper CSO,LMTV,1,2017-06-15 00:00:00
+SC,Jasper CSO,HMMWV,1,2017-06-15 00:00:00
+SC,Jasper CSO,HMMWV,1,2017-06-15 00:00:00
+SC,Jasper CSO,HMMWV,1,2017-06-15 00:00:00
+SC,Lake View PD,HMMWV,1,2016-12-19 00:00:00
+SC,Lake View PD,"Truck, Cargo",1,2016-12-19 00:00:00
+SC,Laurens CSO,HMMWV,4,2017-04-12 00:00:00
+SC,Laurens CSO,LMTV,1,2017-04-12 00:00:00
+SC,Laurens CSO,LMTV,1,2017-04-12 00:00:00
+SC,Laurens CSO,LMTV,1,2017-04-12 00:00:00
+SC,Laurens PD,HMMWV,1,2017-03-28 00:00:00
+SC,Laurens PD,HMMWV,1,2017-03-28 00:00:00
+SC,Laurens PD,UAH,1,2017-05-17 00:00:00
+SC,Mount Pleasant PD,LMTV,1,2017-05-23 00:00:00
+SC,Mount Pleasant PD,LMTV,1,2017-05-23 00:00:00
+SC,Newberry County SO,Truck Cargo,1,2017-02-07 00:00:00
+SC,Newberry County SO,Truck Cargo,1,2017-02-07 00:00:00
+SC,Oconee County SO,UAH,2,2017-03-03 00:00:00
+SC,Pickens Police Department,HMMWV,1,2016-08-01 00:00:00
+SC,Port Royal PD,Truck Cargo,4,2017-02-07 00:00:00
+SC,South Carolina Law Enforcement Division,"Riot Batons
+Riot Helmets
+Riot Shields","200
+200
+200",2016-10-11 00:00:00
+SC,Summerville PD,LMTV,3,2017-05-12 00:00:00
+SC,Union CSO,HMMWV,5,2017-01-24 00:00:00
+SC,Williamsburg CSO,Truck Cargo,4,2017-03-10 00:00:00
+SC,Williamsburg CSO,Truck Utility,4,2017-03-10 00:00:00
+SC,York CSO,Breaching Apparatus,25,2017-04-28 00:00:00
+SC,York CSO,Riot Batons ,150,2017-04-28 00:00:00
+SC,York CSO,Riot Helmets,150,2017-04-28 00:00:00
+SC,York CSO,Riot Shields,150,2017-04-28 00:00:00
+SD, Highway Patrol,UAH,2 EP,2017-03-03 00:00:00
+SD,Pennington CSO,MRAP,1,2017-06-20 00:00:00
+SD,Pennington CSO,UAH,1,2017-06-20 00:00:00
+SD,Tripp CSO,UAH,1,2017-05-09 00:00:00
+TN,18th Judicial DTF,MRAP,1,2016-02-29 00:00:00
+TN,24th Drug Task Force (DTF),HMMWV,1,2016-02-11 00:00:00
+TN,24th Drug Task Force (DTF),HMMWV,1,2016-02-11 00:00:00
+TN,24th Drug Task Force (DTF),Truck Dump,1,2016-02-11 00:00:00
+TN,24th Drug Task Force (DTF),Truck Cargo,1,2016-02-11 00:00:00
+TN,Alamo PD,UAH,1,2017-06-30 00:00:00
+TN,Alamo PD,Truck Cargo,1,2017-06-30 00:00:00
+TN,Alamo PD,Truck Dump,1,2017-06-30 00:00:00
+TN,Benton CSO,Dump Truck,2,2016-10-25 00:00:00
+TN,Benton CSO,Truck Tank,2,2016-10-25 00:00:00
+TN,Benton CSO,Truck Van,2,2016-10-25 00:00:00
+TN,Benton CSO,"Truck, Cargo",2,2016-10-25 00:00:00
+TN,Benton CSO,Utility Vehicle,2,2016-10-25 00:00:00
+TN,Blount CSO,HMMWV,8,2016-06-27 00:00:00
+TN,Brownsville PD,HMMWV,2,2016-04-04 00:00:00
+TN,Crossville PD,HMMWV,1,2016-09-16 00:00:00
+TN,Crossville PD,MRAP,1,2016-06-27 00:00:00
+TN,Cumberland CSO,HMMWV,1,2016-11-29 00:00:00
+TN,Cumberland CSO,"Truck, Cargo",1,2016-11-29 00:00:00
+TN,Grand Junction PD,HMMWV,1,2017-05-10 00:00:00
+TN,Greene CSO,HMMWV,1,2016-06-07 00:00:00
+TN,Greene CSO,"Truck, Cargo",2,2016-06-07 00:00:00
+TN,Hardeman County SO,"HMMWV
+Dump Truck","1
+1",2016-01-27 00:00:00
+TN,Hardin County SO,HMMWV,5,2016-01-27 00:00:00
+TN,Hohenwald,HMMWV,2,2017-04-19 00:00:00
+TN,Hohenwald,Truck Tractor,1,2017-04-19 00:00:00
+TN,Humphreys CSO,MRAP,1,2017-04-19 00:00:00
+TN,Humphreys CSO,UAH,1,2017-04-19 00:00:00
+TN,Johnson City PD,HMMWV,2,2016-06-27 00:00:00
+TN,Lawrenceburg PD,HMMWV,2,2016-11-28 00:00:00
+TN,Lawrenceburg PD,Truck Tractor,2,2016-11-28 00:00:00
+TN,Lawrenceburg PD,"Truck, Cargo",2,2016-11-28 00:00:00
+TN,Lexington PD,"HMMWV
+Truck Tractor
+Dump Truck
+Cargo Truck","4
+2
+2
+2",2016-01-27 00:00:00
+TN,Loudon County SO,HMMWV,15,2015-11-02 00:00:00
+TN,Madison CSO,Truck Maint,2,2016-11-29 00:00:00
+TN,Madison CSO,Truck Tank,2,2016-11-29 00:00:00
+TN,Madison CSO,"Truck, Cargo",2,2016-11-29 00:00:00
+TN,Madison CSO,"Truck, Dump",2,2016-11-29 00:00:00
+TN,Millersville PD,HMMWV,3,2017-01-04 00:00:00
+TN,Millersville PD,"Truck, Cargo",1,2017-01-04 00:00:00
+TN,Millersville PD,"Truck, Dump",1,2017-01-04 00:00:00
+TN,Montgomery CSO,UAH,1,2016-11-30 00:00:00
+TN,Morristown PD,LAV,1,2016-06-27 00:00:00
+TN,Moscow,HMMWV,1,2016-04-15 00:00:00
+TN,Mt. Juliet PD,HMMWV,5,2017-01-19 00:00:00
+TN,Oak Ridge PD,HMMWV,2,2016-09-30 00:00:00
+TN,Putnam County SO,"Truck, Cargo",2,2016-01-27 00:00:00
+TN,Putnam County SO,Truck Dump,2,2016-01-27 00:00:00
+TN,Robertson CSO,UAH,1,2016-12-21 00:00:00
+TN,Savannah PD,Truck cargo,2,2017-03-03 00:00:00
+TN,Savannah PD,Truck Dump,2,2017-03-03 00:00:00
+TN,Savannah PD,Truck Utility,6,2017-03-03 00:00:00
+TN,Savannah PD,Truck Wrecker,1,2017-03-03 00:00:00
+TN,Spring Hill PD,UAH,1,2017-04-13 00:00:00
+TN,Trenton PD,HMMWV,1,2016-04-07 00:00:00
+TN,Wartburg PD,HMMWV,1,2017-06-15 00:00:00
+TX,Abernathy PD,Breaching Apparatus,5,2016-01-28 00:00:00
+TX,Abernathy PD,Riot Batons,5,2016-01-28 00:00:00
+TX,Abernathy PD,Riot Helmets,5,2016-01-28 00:00:00
+TX,Abernathy PD,Riot Shields,5,2016-01-28 00:00:00
+TX,Anderson CSO,UAH,1,2017-06-30 00:00:00
+TX,Crystal City PD,HMMWV,2,2016-08-09 00:00:00
+TX,DUNCANVILLE PD,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","63
+63
+63
+63",2016-01-15 00:00:00
+TX,DUNCANVILLE PD,Capability Set,1,2016-10-12 00:00:00
+TX,Flower Mound PD,MRAP,1,2015-12-15 00:00:00
+TX,Freeport Police Dept,"Riot Helmets
+Riot Shields","20
+20",2016-03-22 00:00:00
+TX,FULSHEAR POLICE DEPT,Breaching Apparatus ,10,2016-01-28 00:00:00
+TX,Gainesville PD,HMMWV,1,2017-01-23 00:00:00
+TX,Gray CSO,Truck Utility,2,2017-03-10 00:00:00
+TX,Harris County Constable PCT 5,HMMWV,2,2016-08-09 00:00:00
+TX,Harris County Constable PCT 5,"Truck, Cargo",1,2016-08-09 00:00:00
+TX,Harris County Sheriff,"Breaching App
+Riot Batons
+Riot Helmets
+Riot Shields","100                        500
+500
+200        ",2017-02-16 00:00:00
+TX,Harris County Sheriff,UAH,1,2017-04-13 00:00:00
+TX,Harrison CSO,HMMWV,1,2017-02-13 00:00:00
+TX,Hays County SO,HMMWV,2,2016-04-07 00:00:00
+TX,Hidalgo CSO,HMMWV,1,2017-05-09 00:00:00
+TX,Hidalgo CSO,Truck Cargo,2,2017-05-09 00:00:00
+TX,Hopkins CSO,HMMWV,2,2016-12-22 00:00:00
+TX,Houston PD,HMMWV,6,2016-02-11 00:00:00
+TX,Houston PD,Truck Cargo,6,2017-03-03 00:00:00
+TX,JEFFERSON CO SHERIFF,Capabilities Set,1,2016-06-23 00:00:00
+TX,Magnolia PD,"Truck, Cargo Van",1,2017-01-19 00:00:00
+TX,Marshall PD,MRAP,1,2015-12-15 00:00:00
+TX,Normangee PD,HMMWV,1,2016-05-05 00:00:00
+TX,Olney PD,HMMWV,2,2016-05-26 00:00:00
+TX,Quitman PD,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","7
+7
+7
+7",2017-02-03 00:00:00
+TX,Quitman PD,HMMWV,2,2017-02-03 00:00:00
+TX,Rancho Viejo PD,HMMWV,1,2017-05-17 00:00:00
+TX,Rio Hondo PD,"HMMWV
+LMTV 2.5 Ton Truck","1
+1",2016-01-27 00:00:00
+TX,San Jacinto County SO,"Breaching Apparatus
+Riot Batons
+Riot Helmets
+Riot Shields","6
+45
+45
+45",2016-04-07 00:00:00
+TX,San Jacinto County SO,"HMMWV
+Cargo/VanTrucks","6
+6",2016-04-21 00:00:00
+TX,San Jacinto County SO,MRAP,1,2016-04-21 00:00:00
+TX,Seymour PD,HMMWV,1,2016-09-16 00:00:00
+TX,Valley View PD,Suburban,1,2017-02-03 00:00:00
+TX,Valley View PD,"Truck, Cargo",1,2016-10-25 00:00:00
+TX,Weatherford College PD,Mamba,1,2015-12-08 00:00:00
+TX,Wheeler CSO,"Truck, Cargo",1,2016-09-30 00:00:00
+TX,Whitney PD,HMMWV,1,2016-12-20 00:00:00
+TX,Wise County SO,MRAP,2,2016-01-06 00:00:00
+TX,Wolfe City PD,"HMMWV
+LMTV Cargo Truck","1
+1",2016-03-30 00:00:00
+VA,Frederick CSO,"Truck, Cargo",4,2016-12-19 00:00:00
+VA,Luray PD,HMMWV,2,2017-01-19 00:00:00
+WA,Grant County SO,MRAP,2,2016-01-06 00:00:00
+WA,Kitsap CSO,UAH,2,2016-10-12 00:00:00
+WA,Lewis CSO,HMMWV,2,2016-06-27 00:00:00
+WA,Lewis CSO,"Truck, Cargo",2,2016-06-27 00:00:00
+WA,Milton PD,HMMWV,1,2016-08-16 00:00:00
+WA,Okanogan CSO,MRAP,1,2016-05-05 00:00:00
+WI,Bayfield CSO,UAH,1,2017-06-06 00:00:00
+WI,Sauk CSO,Breaching App,95,2016-10-18 00:00:00
+WI,Sauk CSO,Riot Batons,95,2016-10-18 00:00:00
+WI,Sauk CSO,Riot Helmets,95,2016-10-18 00:00:00
+WI,Sauk CSO,Riot Shields,95,2016-10-18 00:00:00
+WI,Sauk County SO,MRAP,1,2016-01-27 00:00:00
+WI,Vernon CSO,UAH,1,2017-06-06 00:00:00
+WI,Vilas CSO,Peacekeeper,1,2016-09-30 00:00:00
+WV,Alderson PD,HMMWV,1,2016-09-30 00:00:00
+WV,Alderson PD,"Truck, Cargo",1,2016-09-30 00:00:00
+WV,Fairmont PD,HMMWV,1,2016-06-27 00:00:00
+WV,Fairmont PD,HMMWV,1,2016-06-27 00:00:00
+WV,Fairmont PD,HMMWV,1,2016-06-27 00:00:00
+WV,Fayette County SO,HMMWV,4,2016-02-11 00:00:00
+WV,Keyser City PD,HMMWV,2,2016-02-11 00:00:00
+WV,Moundsville PD,HMMWV,2,2016-02-11 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,HMMWV,1,2016-01-27 00:00:00
+WV,West Virginia State Police,UAH,1,2016-12-19 00:00:00
+WV,West Virginia State Police,UAH,1,2016-12-19 00:00:00
+WV,West Virginia State Police,UAH,1,2016-12-19 00:00:00

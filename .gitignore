@@ -1,4 +1,9 @@
 # Dan Nguyen's custom bashfoo
+
+# Intermediary files that aren't saved to the repo
+data/compiled/state-agencies.csv
+
+
 *.egg-info
 
 # names for data collect folders that shouldn't be committed

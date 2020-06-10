@@ -5,8 +5,10 @@ collect.py
 
 Reads data_manifest.yaml, and for each "data/collected" entry, downloads from the
   corresponding `url`
-
 """
+from sys import path as syspath; syspath.append('./scripts')
+from utils import mylog
+
 from pathlib import Path
 import requests
 from sys import stderr
@@ -38,18 +40,18 @@ def main():
     for filename, url in collect_inventory():
         dest_path = Path(filename)
 
-        stderr.write(f"\n{dest_path}\n")
+        mylog(f"\n{dest_path}")
         if dest_path.is_file() and dest_path.stat().st_size > 1023:
-            stderr.write(f'\talready exists: {dest_path.stat().st_size} bytes\n')
+            mylog(f'\talready exists: {dest_path.stat().st_size} bytes')
         else:
-            stderr.write(f"\tDownloading: {url}\n")
+            mylog(f"\tDownloading: {url}")
 
             content = fetch_file(url)
 
             dest_path.parent.mkdir(exist_ok=True, parents=True)
             dest_path.write_bytes(content)
 
-            stderr.write(f"\tWrote {len(content)} bytes\n")
+            mylog(f"\tWrote {len(content)} bytes")
 
 
 if __name__ == '__main__':

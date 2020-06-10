@@ -2,10 +2,9 @@
 .PHONY : clean help ALL
 
 SQLIZED_DB = data/wrapped/sqlized.sqlite
-STUB_WRANGLED = data/wrangled/helloworld.csv
-STUB_FUSED = data/compiled/helloworld.csv
-STUB_COLLECTED = data/collected/hello.txt \
-			   data/collected/world.txt
+
+COMPILED_AGENCIES = data/compiled/state-agencies.csv
+WRANGLED_AGENCIES = data/wrangled/state-agencies.csv
 
 help:
 	@echo 'Run `make ALL` to see how things run from scratch'
@@ -48,27 +47,22 @@ $(SQLIZED_DB): wrangle clean_sqlize
 	@echo "      " open $(SQLIZED_DB)
 
 
-# wrangle task should ideally call wrangling scripts
-# e.g. mypkg/wrangle/my_wrangler.py
-wrangle: $(STUB_WRANGLED)
+wrangle: $(WRANGLED_AGENCIES)
 
-$(STUB_WRANGLED): compile ./scripts/wrangle.py
-	@echo ""
-	@echo --- Wrangling $@
-	@echo
-
-	./scripts/wrangle.py
+$(WRANGLED_AGENCIES): $(COMPILED_AGENCIES)
+	./scripts/wrangle.py > $(WRANGLED_AGENCIES)
 
 
-compile: $(STUB_FUSED)
+compile: $(COMPILED_AGENCIES)
 
-$(STUB_FUSED): collect ./scripts/compile.py
-	@echo ""
-	@echo --- Collating $@
+$(COMPILED_AGENCIES):
+	@echo "Compiling to $(COMPILED_AGENCIES)"
+	./scripts/compile/compile_state_agencies.py > $(COMPILED_AGENCIES)
 
-	./scripts/compile.py
+convert: data/collected/disp/agencies/
+	./scripts/collect/collect_convert_csvs.py
 
 
 collect:
 	@echo "Gathers $(STUB_COLLECTED)"
-	./scripts/collect.py
+	./scripts/collect/collect_spreadsheets.py

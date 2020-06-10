@@ -1,19 +1,19 @@
 #!/usr/bin/env python
+from sys import path as syspath; syspath.append('./scripts')
+from utils import mylog
 
 import csv
 import re
 from openpyxl import load_workbook
 from pathlib import Path
-from sys import stderr
 from xlrd import open_workbook
 
 SRC_DIR = Path('data/collected/disp/agencies')
-X_PATH = SRC_DIR.joinpath('2020-03-31/all-states.xlsx')
 
 
 
 def gather_bookpaths():
-    return list(SRC_DIR.rglob('*.xlsx'))[-8:]
+    return sorted(SRC_DIR.rglob('*.xlsx'))
 
 def get_csvdir(bookpath):
     """
@@ -21,12 +21,11 @@ def get_csvdir(bookpath):
         something like "data/collected/disp/agencies/2020-03-31/all-states.xlsx"
 
     Returns: <Path>
-        data/collected/disp/agencies/2020-03-31/csv/all-states/
+        data/collected/disp/agencies/2020-03-31/all-states/
     """
     bookpath = Path(bookpath)
     bookdir = bookpath.parent
-    subdir = bookpath.stem
-    csvdir = bookdir.joinpath('csv', subdir)
+    csvdir = bookdir.joinpath(bookpath.stem)
 
     return csvdir
 
@@ -77,18 +76,24 @@ def main():
     bookpaths = gather_bookpaths()
     mylog(f"Found {len(bookpaths)}...")
     for srcpath in bookpaths:
-        data = extract_all_sheets(srcpath)
 
         destdir = get_csvdir(srcpath)
-        destdir.mkdir(exist_ok=True, parents=True)
+        # test if files already exists
+        childs = list(destdir.glob('*.csv'))
+        if destdir.is_dir() and len(childs) > 0:
+            mylog(f"...Skipping {destdir}; {len(childs)} csv files found")
+        else:
+            destdir.mkdir(exist_ok=True, parents=True)
+            data = extract_all_sheets(srcpath)
 
-        for sheetname, rows in data.items():
-            destpath = destdir.joinpath(f'{sheetname}.csv')
 
-            with open(destpath, 'w') as dest:
-                outs = csv.writer(dest)
-                outs.writerows(rows)
-                mylog(f"...wrote {len(rows)} rows to: {destpath}")
+            for sheetname, rows in data.items():
+                destpath = destdir.joinpath(f'{sheetname}.csv')
+
+                with open(destpath, 'w') as dest:
+                    outs = csv.writer(dest)
+                    outs.writerows(rows)
+                    mylog(f"...wrote {len(rows)} rows to: {destpath}")
 
 # def testfoo():
 #     data = extract_all_sheets(X_PATH)
@@ -101,8 +106,6 @@ def main():
 #             outs.writerows(rows)
 #             mylog(f"...wrote {len(rows)} rows to: {destpath}")
 
-def mylog(txt):
-    stderr.write(f"{str(txt)}\n")
 
 if __name__ == '__main__':
     main()

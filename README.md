@@ -8,9 +8,14 @@ The data comes from spreadsheets downloaded from:
 - copies of the DoD spreadsheets [as meticulously gathered and mirrored over the years by the Marshall Project](https://github.com/themarshallproject/dod10331)
 - what I could scrounge using the Internet Archive and plain guessing URLs
 
+
 Check out [data_inventory.yaml](./data_inventory.yaml) to see where each data file, as found in [data/collected/disp](data/collected/disp), is sourced.
 
 ## Links
+
+### Important references
+
+- [SCPR's guide to the 1033 data, including its many pitfalls](https://github.com/SCPR/kpcc-data-team/blob/master/guides/primer-on-defense-logistics-agencys-1033-program-data.md)
 
 ### Some data/publication links
 

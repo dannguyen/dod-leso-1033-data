@@ -1,7 +1,7 @@
 # Dan Nguyen's custom bashfoo
 
 # Intermediary files that aren't saved to the repo
-data/compiled/state-agencies.csv
+data/compiled/state-agencies/ALL.csv
 *.sqlite
 *.sqlite-journal
 

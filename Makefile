@@ -2,7 +2,7 @@
 .PHONY : clean help ALL
 
 
-COMPILED_AGENCIES = data/compiled/state-agencies.csv
+#COMPILED_AGENCIES = data/compiled/state-agencies/ALL.csv
 WRANGLED_AGENCIES = data/wrangled/state-agencies.csv
 
 help:
@@ -23,7 +23,7 @@ clean:
 sqlize_compile:
 	scripts/wrap/sqlize/tablemaker.py \
 	    --db data/wrapped/db.sqlite \
-	    --src data/compiled/state-agencies.csv \
+	    --src data/compiled/state-agencies/ALL.csv \
 	    --table 'compiled_agency' \
 	    --create scripts/wrap/sqlize/schemas/tbl_compiled_agency.sql \
 	    --index scripts/wrap/sqlize/schemas/idx_compiled_agency.sql \
@@ -31,19 +31,23 @@ sqlize_compile:
 
 
 
-wrangle: $(WRANGLED_AGENCIES)
+# wrangle: $(WRANGLED_AGENCIES)
 
-$(WRANGLED_AGENCIES): $(COMPILED_AGENCIES)
-	./scripts/wrangle.py > $(WRANGLED_AGENCIES)
-
-
+# $(WRANGLED_AGENCIES): $(COMPILED_AGENCIES)
+# 	./scripts/wrangle.py > $(WRANGLED_AGENCIES)
 
 
-compile: $(COMPILED_AGENCIES)
 
-$(COMPILED_AGENCIES):
-	@echo "Compiling to $(COMPILED_AGENCIES)"
-	./scripts/compile/compile_state_agencies.py > $(COMPILED_AGENCIES)
+compile:
+	@echo "Compiling..."
+	./scripts/compile/compile_state_agencies.py
+
+
+# compile: $(COMPILED_AGENCIES)
+
+# $(COMPILED_AGENCIES):
+# 	@echo "Compiling to $(COMPILED_AGENCIES)"
+# 	./scripts/compile/compile_state_agencies.py > $(COMPILED_AGENCIES)
 
 convert: data/collected/disp/agencies/
 	./scripts/collect/collect_convert_csvs.py

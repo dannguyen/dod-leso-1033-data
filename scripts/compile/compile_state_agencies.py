@@ -16,6 +16,9 @@ import re
 from sys import stdout
 
 SRC_DIR = Path('data/collected/disp/agencies')
+SRCDATE_DIRS = sorted(SRC_DIR.glob('*/all-states'))
+DEST_DIR = Path('data/compiled/state-agencies')
+DEST_PATH_ALL = DEST_DIR.joinpath('ALL.csv')
 # DEST_PATH = Path('data/compiled/state-agencies.csv')
 
 HEADER_MAP = {
@@ -58,20 +61,15 @@ def metasize_csvpath(fullpath):
     d['sheet_name'] = path.stem
     return d
 
-def gather_csvs():
-    return sorted(SRC_DIR.rglob('*states*/*.csv'))
-
-
-def load_csv(srcpath):
+def load_sheet_csv(srcpath):
     """
     Returns: <list> of dicts
     """
-    metainfo = metasize_csvpath(srcpath)
-
+    meta = metasize_csvpath(srcpath)
     data = []
     with open(srcpath) as src:
         for row in csv.DictReader(src):
-            d = metainfo.copy()
+            d = meta.copy()
             for h, val in row.items():
                 newh = HEADER_MAP[h]
                 d[newh] = cleanws(row[h])
@@ -79,25 +77,57 @@ def load_csv(srcpath):
                     d['org_ship_date'] = d['ship_date']
                     d['ship_date'] = d['org_ship_date'][:10]
             data.append(d)
+
+
+    metatxt = f"{meta['file_date']}/{meta['book_name']}/{meta['sheet_name']}"
+    mylog(f"{metatxt}:".ljust(50) + f" {len(data)} rows")
+
     return data
+
+def write_compiled_date_csv(data, destdir, file_date,):
+    destpath = destdir.joinpath(f'{file_date}.csv')
+    with open(destpath, 'w') as dest:
+        outs = csv.DictWriter(dest, fieldnames=COMPILED_HEADERS)
+        outs.writeheader()
+        outs.writerows(data)
+    mylog(f"Wrote {len(data)} rows to: {destpath}")
+
+
 
 
 def main():
-    srcpaths = gather_csvs()
-    mylog(f"Found {len(srcpaths)} csv files")
+    DEST_DIR.mkdir(exist_ok=True, parents=True)
+    mylog(f"Found {len(SRCDATE_DIRS)} date directories")
 
-    outfile = stdout
-    outs = csv.DictWriter(outfile, fieldnames=COMPILED_HEADERS)
-    outs.writeheader()
+    alldest = open(DEST_PATH_ALL, 'w')
+    allouts = csv.DictWriter(alldest, fieldnames=COMPILED_HEADERS)
+    allouts.writeheader()
 
-    for srcpath in srcpaths:
-        meta = metasize_csvpath(srcpath)
-        metainfo = f"{meta['file_date']}/{meta['book_name']}/{meta['sheet_name']}"
+    for datedir in SRCDATE_DIRS:
+        sheetpaths = sorted(datedir.glob('*.csv'))
+        mylog(f"{datedir}: {len(sheetpaths)} csv files")
 
-        data = load_csv(srcpath)
-        mylog(f"{metainfo}:\t {len(data)} rows")
 
-        outs.writerows(data)
+        # each datedir looks like:
+        # data/collected/disp/agencies/2019-12-31/all-states
+        filedate = datedir.parent.name
+
+        datedata = []
+        for sheetpath in sheetpaths:
+            sdata = load_sheet_csv(sheetpath)
+            datedata.extend(sdata)
+        write_compiled_date_csv(datedata, DEST_DIR, filedate)
+        allouts.writerows(datedata)
+
+    mylog("-30-")
+    mylog(f"Wrote all rows into: {DEST_PATH_ALL}")
+    alldest.close()
+    # for srcpath in srcpaths:
+    #     data = load_csv(srcpath)
+
+    #     meta = metasize_csvpath(srcpath)
+
+    #     outs.writerows(data)
 
 if __name__ == '__main__':
     main()

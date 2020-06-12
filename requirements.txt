@@ -5,3 +5,4 @@ openpyxl>=2.6
 xlrd>=1.2
 apsw>=3.9
 click>=7.1.2
+pandas>=1.0.4

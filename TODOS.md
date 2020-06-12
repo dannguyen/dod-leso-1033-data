@@ -6,6 +6,7 @@
 
 - [ ] Manually hand make the demil tables
 - [ ] Wrangling
+    - in each successive compiled file, figure out what's been removed in the subsequent date
     - Remove unnecessary columns, e.g. station_type, book_name, sheet_name
     
 

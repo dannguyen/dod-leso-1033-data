@@ -72,3 +72,9 @@ https://github.com/BuzzFeedNews/2020-06-leso-1033-transfers-since-ferguson
 - [Midterm Malarkey with Military Surplus, Stanford Public Affairs Data Journalism I, 2014-10-23](http://www.padjo.org/2014-10-23/)
 
 
+
+
+## Summary files
+
+- [data/wrapped/summaries/agency-files.csv](data/wrapped/summaries/agency-files.csv): agencies grouped by name, state; shows first and last report and number of orders total.. Manually generated from data/wrapped/db.sqlite: `SELECT * FROM agency_files_summary`; TKTK
+

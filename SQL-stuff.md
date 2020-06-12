@@ -43,3 +43,36 @@ FROM shipdates
 GROUP BY day
 ORDER BY j DESC 
 ```
+
+
+## Find each unique state-agency, with total orders, orders in latest file, orders in oldest file, total reports, first date, and last date
+
+```sql
+WITH usums AS (
+        SELECT state
+            , station_name
+            , file_date
+            , COUNT(1) as record_count
+        FROM compiled_agency
+        GROUP BY state, station_name, file_date
+        ORDER BY state, station_name, file_date
+    )
+    , ua AS (
+    SELECT state
+        , station_name
+        , COUNT(1) AS file_count
+        , SUM(order_count) AS order_count
+        , MIN(file_date) AS oldest_date
+        , MAX(file_date) AS latest_date
+    FROM usums
+    GROUP BY state, station_name
+)
+SELECT * 
+FROM ua;
+
+
+```
+
+
+
+## In each dated file, find the records for which there are repeat orders for the same item/quantity

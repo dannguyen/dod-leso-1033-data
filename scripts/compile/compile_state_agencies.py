@@ -1,8 +1,18 @@
 #!/usr/bin/env python
+
+"""
+Differences between collected and compiled data:
+- standardized header names
+- ship_date is just date, not datetime
+- whitespace squeezed and stripped (cleanws(text))
+
+"""
+
 from sys import path as syspath; syspath.append('./scripts')
 from utils import mylog
 import csv
 from pathlib import Path
+import re
 from sys import stdout
 
 SRC_DIR = Path('data/collected/disp/agencies')
@@ -22,7 +32,11 @@ HEADER_MAP = {
     'Station Type': 'station_type',
 }
 
-COMPILED_HEADERS = list(HEADER_MAP.values()) + ['file_date', 'book_name', 'sheet_name']
+COMPILED_HEADERS = list(HEADER_MAP.values()) + ['org_ship_date', 'file_date', 'book_name', 'sheet_name']
+
+
+def cleanws(text):
+    return re.sub(r'\s+', ' ', str(text)).strip()
 
 
 def metasize_csvpath(fullpath):
@@ -58,9 +72,12 @@ def load_csv(srcpath):
     with open(srcpath) as src:
         for row in csv.DictReader(src):
             d = metainfo.copy()
-            for attr, val in row.items():
-                h = HEADER_MAP[attr]
-                d[h] = row[attr]
+            for h, val in row.items():
+                newh = HEADER_MAP[h]
+                d[newh] = cleanws(row[h])
+                if newh == 'ship_date':
+                    d['org_ship_date'] = d['ship_date']
+                    d['ship_date'] = d['org_ship_date'][:10]
             data.append(d)
     return data
 

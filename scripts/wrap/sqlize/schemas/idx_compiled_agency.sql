@@ -13,6 +13,6 @@ CREATE INDEX IF NOT EXISTS
 
 CREATE INDEX IF NOT EXISTS
     idx_compiledstateagency_on_unique_order
-    ON compiled_agency('station_name', 'tx', 'item_name', 'quantity', 'ship_date', 'file_date');
+    ON compiled_agency('station_name', 'state', 'item_name', 'quantity', 'ship_date', 'file_date');
 
 

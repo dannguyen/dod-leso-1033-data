@@ -36,7 +36,7 @@ WITH usums AS (
     , ua AS (
     SELECT state
         , station_name
-        , COUNT(1) AS report_count
+        , COUNT(1) AS file_count
         , SUM(order_count) AS order_count
         , MIN(file_date) AS oldest_date
         , MAX(file_date) AS latest_date

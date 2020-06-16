@@ -15,6 +15,15 @@ from pathlib import Path
 import re
 from sys import stdout
 
+AGENCY_PATTERN_FIXES_PATH = Path('data/archived/agency-name-cleanup/agency-pattern-fixes.csv')
+agency_pattern_fixes = None
+
+ONEOFFS_PATH = Path('data/archived/agency-name-cleanup/agency-one-off-fixes.csv')
+oneoff_names = None
+
+STATE_LOOKUP_PATH = Path('data/archived/crosswalks/us-states.csv')
+state_lookups = None
+
 SRC_DIR = Path('data/collected/disp/agencies')
 SRCDATE_DIRS = sorted(SRC_DIR.glob('*/all-states'))
 DEST_DIR = Path('data/compiled/state-agencies')
@@ -35,12 +44,71 @@ HEADER_MAP = {
     'Station Type': 'station_type',
 }
 
-COMPILED_HEADERS = list(HEADER_MAP.values()) + ['org_ship_date', 'file_date', 'book_name', 'sheet_name']
+COMPILED_HEADERS = list(HEADER_MAP.values()) + ['org_station_name', 'org_ship_date', 'file_date', 'book_name', 'sheet_name']
 
 
 def cleanws(text):
     return re.sub(r'\s+', ' ', str(text)).strip()
 
+
+def clean_agency_name(state, name):
+    global oneoff_names
+    oneoff_names = oneoff_names if oneoff_names is not None else ({
+            (r['state'], r['original_name']):
+              r['fixed_name'] for r in csv.DictReader(open(ONEOFFS_PATH))
+            })
+
+    oneoff = oneoff_names.get((state, name,))
+    if oneoff:
+        name = oneoff
+    else:
+        name = _clean_agency_name_patterns(name)
+        name = _clean_agency_state_abbreviations(state, name)
+    return name
+
+
+def _clean_agency_name_patterns(name):
+    """
+    test cases:
+    JOHNSON CO LAW ENF PROSECUTORS OFF
+    """
+    global agency_pattern_fixes
+    if agency_pattern_fixes is None:
+        with open(AGENCY_PATTERN_FIXES_PATH) as src:
+            agency_pattern_fixes = list(csv.DictReader(src))
+
+    for rx in agency_pattern_fixes:
+        name = re.sub(rx['pattern'], rx['fix'], name)
+    return name
+
+def _clean_agency_state_abbreviations(abbv, name):
+    """if stateabbr appears in name, like SOUTHEAST OH; change it to the full name: SOUTHEAST OHIO """
+    global state_lookups
+    if state_lookups is None:
+       with open(STATE_LOOKUP_PATH) as src:
+            state_lookups = {k['usps']: k['name'] for k in csv.DictReader(src)}
+
+    rx = r'\b' + abbv + r'\b'
+    if re.search(rx, name) and state_lookups.get(abbv):
+        name = re.sub(rx, state_lookups.get(abbv).upper(), name)
+
+    return name
+
+
+
+
+def tag_federal(text):
+    """
+    EPA/USDA/SEC/FEC/USDVA/ATF/NPS/FBI/DOJ
+    """
+    pass
+
+def tag_school(text):
+    r"""
+    HI_ED
+    K[_\-]12
+    """
+    pass
 
 def metasize_csvpath(fullpath):
     """
@@ -68,14 +136,21 @@ def load_sheet_csv(srcpath):
     meta = metasize_csvpath(srcpath)
     data = []
     with open(srcpath) as src:
-        for row in csv.DictReader(src):
+        for rawrow in csv.DictReader(src):
             d = meta.copy()
-            for h, val in row.items():
-                newh = HEADER_MAP[h]
-                d[newh] = cleanws(row[h])
+            for oldhead, oldval in rawrow.items():
+                newh = HEADER_MAP[oldhead]
                 if newh == 'ship_date':
-                    d['org_ship_date'] = d['ship_date']
-                    d['ship_date'] = d['org_ship_date'][:10]
+                    d['org_ship_date'] = oldval
+                    val = oldval[:10]
+                elif newh == 'station_name':
+                    d['org_station_name'] = oldval
+                    val = clean_agency_name(d['state'], oldval)
+                else:
+                    val = oldval
+                # no matter what, clean up whitespace
+                d[newh] = cleanws(val)
+
             data.append(d)
 
 
